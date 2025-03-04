@@ -1,0 +1,3770 @@
+all:
+  hosts:
+    Agadir-BDD:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.107
+      os: CentOS 4/5/6 (64-bit)
+    Agadir-app:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.106
+      os: CentOS 4/5/6 (64-bit)
+    Agadir-search:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.108
+      os: CentOS 4/5/6 (64-bit)
+    BAF-EXT-BDD:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.211
+      os: Other (32-bit)
+    BAF-EXT-SEARCH:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.210
+      os: Debian GNU/Linux 11 (64-bit)
+    BAF-EXT-SSO1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.212
+      os: Debian GNU/Linux 11 (64-bit)
+    BAF-EXT-SSO2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.213
+      os: Debian GNU/Linux 11 (64-bit)
+    BAF-EXT-WEB-APP:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.208
+      os: Other (32-bit)
+    CDC-ANALYTICS-APP:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.126
+      os: Debian GNU/Linux 10 (64-bit)
+    CDC-ANALYTICS-BDD:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.156
+      os: Debian GNU/Linux 10 (64-bit)
+    CDC-APP1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.115
+      os: Debian GNU/Linux 10 (64-bit)
+    CDC-APP2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.238
+      os: Debian GNU/Linux 10 (64-bit)
+    CDC-APPS:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.145
+      os: Debian GNU/Linux 10 (64-bit)
+    CDC-BDD:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.194
+      os: Debian GNU/Linux 10 (64-bit)
+    CDC-MONITORING-APP:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.138
+      os: Debian GNU/Linux 10 (64-bit)
+    CDC-MQ:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.199
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CDC-SEARCH:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.189
+      os: Debian GNU/Linux 10 (64-bit)
+    CDC-WEB1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.114
+      os: Debian GNU/Linux 10 (64-bit)
+    CERES-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.166
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CLIENT-VPN1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.100
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    CLIENT-VPN2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.99
+      os: Microsoft Windows 8.x (64-bit)
+    CP2I_Postgres96_utf8-rct:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.19
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-00-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.99
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-01-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.239
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-01-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.240
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-01-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.86
+      os: CentOS 4/5/6 (64-bit)
+    CV-01-02-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.206
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-02-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.207
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-02-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.88
+      os: CentOS 6 (64-bit)
+    CV-01-03-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.243
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-03-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.244
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-03-01-003:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.51
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-03-01-101:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.34
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-03-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.90
+      os: CentOS 6 (64-bit)
+    CV-01-04-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.204
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-04-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.205
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-04-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.92
+      os: CentOS 6 (64-bit)
+    CV-01-05-01-003:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.245
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-05-01-004:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.246
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-05-01-005:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.216
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-05-01-006:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.52
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-05-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.94
+      os: Red Hat Enterprise Linux 5 (64-bit)
+    CV-01-06-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.247
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-06-01-003:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.228
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-06-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.96
+      os: CentOS 6 (64-bit)
+    CV-01-07-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.248
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-07-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.249
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-07-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.102
+      os: Red Hat Enterprise Linux 5 (64-bit)
+    CV-01-08-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.202
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-08-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.203
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-08-01-003:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.48
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-08-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.100
+      os: CentOS 4/5/6 (64-bit)
+    CV-01-09-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.229
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    CV-01-09-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.230
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    CV-01-09-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.103
+      os: CentOS 4/5/6 (64-bit)
+    CV-01-10-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.231
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    CV-01-10-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.232
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    CV-01-10-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.105
+      os: CentOS 4/5/6 (64-bit)
+    CV-01-11-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.235
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    CV-01-11-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.236
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    CV-01-11-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.107
+      os: CentOS 4/5/6 (64-bit)
+    CV-01-13-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.250
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-13-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.251
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-13-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.111
+      os: CentOS 4/5/6 (64-bit)
+    CV-01-14-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.237
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-14-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.238
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-14-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.113
+      os: CentOS 4/5/6 (64-bit)
+    CV-01-15-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.223
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-15-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.224
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-15-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.115
+      os: CentOS 4/5/6 (64-bit)
+    CV-01-16-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.225
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-16-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.226
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-16-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.117
+      os: CentOS 4/5/6 (64-bit)
+    CV-01-16-16-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.118
+      os: CentOS 4/5/6 (64-bit)
+    CV-01-17-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.210
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-17-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.211
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-17-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.119
+      os: CentOS 6 (64-bit)
+    CV-01-19-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.217
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-19-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.218
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-19-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.123
+      os: CentOS 6 (64-bit)
+    CV-01-20-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.219
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-20-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.220
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-01-20-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.83
+      os: CentOS 4/5/6 (64-bit)
+    CV-01-21-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.241
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-21-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.242
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-21-01-101:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.15
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-21-01-102:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.16
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-21-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.109
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-22-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.252
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-22-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.253
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-22-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.124
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-23-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.198
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-23-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.199
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-23-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.125
+      os: CentOS 7 (64-bit)
+    CV-01-24-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.197
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-24-01-003:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.212
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-24-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.98
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-25-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.194
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-25-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.201
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-25-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.126
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-26-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.10
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-26-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.11
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-26-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.67
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-27-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.12
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-27-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.13
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-27-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.68
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-28-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.17
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-28-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.18
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-28-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.71
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-29-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.19
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-29-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.20
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-29-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.72
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-30-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.21
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-30-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.22
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-30-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.73
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-31-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.23
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-31-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.24
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-31-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.74
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-32-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.25
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-32-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.26
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-32-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.75
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-33-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.28
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-33-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.29
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-33-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.76
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-34-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.30
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-34-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.31
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-34-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.77
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-35-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.32
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-35-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.33
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-35-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.78
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-36-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.35
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-36-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.36
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-01-36-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.79
+      os: CentOS 7 (64-bit)
+    CV-01-37-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.37
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-37-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.80
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-38-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.42
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-38-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.43
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-38-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.89
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-39-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.44
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-39-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.45
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-39-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.91
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-40-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.46
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-40-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.47
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-40-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.93
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-41-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.49
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-41-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.50
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-41-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.95
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-42-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.53
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-42-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.54
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-42-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.97
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-43-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.55
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-43-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.56
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-01-44-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.57
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-01-44-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.58
+      os: Microsoft Windows Server 2022 (64-bit)
+    CV-03-03-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.214
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-03-03-01-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.215
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-03-10-16-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.82
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-03-15-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.196
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-05-00-01-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.195
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    CV-05-00-01-101:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.69.27
+      os: Microsoft Windows Server 2019 (64-bit)
+    CV-BDD-DEMO:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.110
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    CV-KH03-001:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.233
+      os: CentOS 6 (64-bit)
+    CV-KH03-002:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.234
+      os: CentOS 6 (64-bit)
+    CV-app-rct:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.221
+      os: Microsoft Windows Server 2012 (64-bit)
+    CV-demo-recette:
+      folder: /KleeGroup-Hosting/TCC/Capital Venture
+      ipv4: 192.168.66.222
+      os: Microsoft Windows Server 2012 (64-bit)
+    Chatbot-Factory:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.11
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    DECA-2MAINS-API1-REC-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.100
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    DECA-2MAINS-API2-REC-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.101
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    DECA-2MAINS-BDD-REC-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.103
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    DECA-2MAINS-BO1-REC-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.98
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    DECA-2MAINS-BO2-REC-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.99
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    DECA-2MAINS-ES-REC-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.102
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    DECA-2MAINS-OPS-REC-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.104
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    DGAC-DEMO-RCT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.128
+      os: SUSE Linux Enterprise 12 (64-bit)
+    EFP_ADM:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.251
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_APP1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.248
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_APP2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.250
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_BDD1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.224
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_BDD2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.225
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_CAS1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.221
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_CAS2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.222
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_ES:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.215
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_LDAP1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.227
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_LDAP2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.228
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_WEB:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.220
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_efpconnect-recette_APP:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.104
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_efpconnect-recette_BDD:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.144
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_efpconnect-recette_CAS:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.136
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    EFP_efpconnect-recette_ES:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.164
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    Extranet:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 192.168.180.142
+      os: Ubuntu Linux (32-bit)
+    HATVP-TEST-BACK-1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.204
+      os: Other (32-bit)
+    HATVP-TEST-MIDDLE-1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.201
+      os: Other (32-bit)
+    HATVP-TEST-MIDDLE-2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.202
+      os: Debian GNU/Linux 11 (64-bit)
+    HATVP-TEST-MIDDLE-3:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.203
+      os: Debian GNU/Linux 11 (64-bit)
+    IGNPRO:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.21
+      os: CentOS 4/5 (64-bit)
+    IT-BO-6LOG-001:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.89.80
+      os: CentOS 6 (64-bit)
+    IT-BO-DNS-001:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.89.81
+      os: CentOS 6 (64-bit)
+    IT-BO-RDS-001:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.89.60
+      os: CentOS 6 (64-bit)
+    IT-BO-WEBSTATS-01:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.180.160
+      os: CentOS 4/5 (64-bit)
+    IT-DT4-RUD-WEB-01:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: ''
+      os: CentOS 4/5 (64-bit)
+    IT-DT4-Tools-001:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.89.99
+      os: CentOS 4/5 (64-bit)
+    IT-GL-ELS-01:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.81.108
+      os: CentOS 4/5/6 (64-bit)
+    IT-GL-ELS-02:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.81.107
+      os: CentOS 4/5/6 (64-bit)
+    IT-GL-ELS-03:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.81.106
+      os: CentOS 4/5/6 (64-bit)
+    IT-GL-WEB-01:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.81.109
+      os: CentOS 4/5/6 (64-bit)
+    IT-GL-WEB-02:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.81.110
+      os: CentOS 4/5/6 (64-bit)
+    IT-RB-6LOG-001:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: ''
+      os: Red Hat Enterprise Linux 6 (64-bit)
+    IT-RB-CAM-01:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: 192.168.81.240
+      os: Microsoft Windows Server 2012 (64-bit)
+    IT-RB-DNS-001:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: ''
+      os: Red Hat Enterprise Linux 6 (64-bit)
+    IT-RB-OBS-001:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: ''
+      os: Red Hat Enterprise Linux 6 (64-bit)
+    IT-RB-RDS-001:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: ''
+      os: Red Hat Enterprise Linux 6 (64-bit)
+    IT-RB-SPLA-KMS:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: 192.168.89.240
+      os: Microsoft Windows Server 2012 (64-bit)
+    IT-RB-TOOLS-01:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: 192.168.89.193
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    IT-TCG-NXL-01:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: 192.168.81.228
+      os: CentOS 4/5/6 (64-bit)
+    Isis-BDD:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.252
+      os: Red Hat Enterprise Linux 6 (64-bit)
+    Isis-Front:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.253
+      os: CentOS 4/5 (64-bit)
+    KH-STATION:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 192.168.140.200
+      os: Microsoft Windows XP Professional (32-bit)
+    KLEE-APP:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: ''
+      os: Other 2.4.x Linux (32-bit)
+    Mx3:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: ''
+      os: Other Linux (32-bit)
+    Mx4:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 192.168.139.34
+      os: CentOS 4/5/6 (32-bit)
+    Mysql002:
+      folder: /KleeGroup-Hosting/TCC/Mutualise
+      ipv4: ''
+      os: Other Linux (32-bit)
+    Mysql005:
+      folder: /KleeGroup-Hosting/TCC/Mutualise
+      ipv4: 192.168.51.99
+      os: CentOS 4/5 (64-bit)
+    NS1.KLEEGROUP.COM:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 192.168.139.8
+      os: CentOS 4/5/6 (32-bit)
+    REACTEUR-RCT-ADMIN:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.83
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    REACTEUR-RCT-BDD:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.85
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    REACTEUR-RCT-CONSULT:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.84
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    REACTEUR-RCT-ES1:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.87
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    REACTEUR-RCT-ES2:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.88
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    REACTEUR-RCT-ES3:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.89
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    REACTEUR-RCT-EXT-WEB:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.82
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    REACTEUR-RCT-GRA-MGR:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.91
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    REACTEUR-RCT-GRA-PUB:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.90
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    REACTEUR-RCT-GRA-STO:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.92
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    REACTEUR-RCT-MQ:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.86
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    Rct-Reacteur-APP:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.42
+      os: Debian GNU/Linux 11 (64-bit)
+    Rct-Reacteur-BDD:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.44
+      os: Debian GNU/Linux 11 (64-bit)
+    Rct-Reacteur-SEARCH:
+      folder: /KleeGroup-Hosting/DC4/Reacteur
+      ipv4: 172.19.180.43
+      os: Debian GNU/Linux 11 (64-bit)
+    SIE2-BDD1-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: ''
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    SIE2-BDD2-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: ''
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    SIE2-JIRA-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: ''
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    SIE2-TOMCAT1-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: ''
+      os: CentOS 7 (64-bit)
+    SIE2-TOMCAT2-EXT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: ''
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    SIGDCA-GEOSERVER-BDD:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.117
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    SIGDCA-PREPROD:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: ''
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    SparkWeb:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.191
+      os: CentOS 6 (64-bit)
+    Test-Hot-Snap:
+      folder: /KleeGroup-Hosting/DC4/TEST
+      ipv4: 192.168.180.42
+      os: CentOS 4/5 (64-bit)
+    VM-01-00-02-001:
+      folder: /KleeGroup-Hosting/TCC/Kleegroup
+      ipv4: 172.20.200.134
+      os: CentOS 4/5/6 (64-bit)
+    VM-01-00-16-001:
+      folder: /KleeGroup-Hosting/TCC/Kleegroup
+      ipv4: 172.20.200.34
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-05-01-601:
+      folder: /KleeGroup-Hosting/TCC/DGEFP-FSE
+      ipv4: 172.17.5.90
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-05-01-602:
+      folder: /KleeGroup-Hosting/TCC/DGEFP-FSE
+      ipv4: 172.17.5.91
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-05-01-701:
+      folder: /KleeGroup-Hosting/DC4/DGEFP-FSE
+      ipv4: 172.17.5.207
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-05-16-601:
+      folder: /KleeGroup-Hosting/TCC/DGEFP-FSE
+      ipv4: 172.17.5.25
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-05-16-701:
+      folder: /KleeGroup-Hosting/DC4/DGEFP-FSE
+      ipv4: 172.17.5.242
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-08-02-101:
+      folder: /KleeGroup-Hosting/TCC/FFSA
+      ipv4: 192.168.179.86
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-08-02-102:
+      folder: /KleeGroup-Hosting/TCC/FFSA
+      ipv4: 192.168.179.87
+      os: Other (32-bit)
+    VM-01-08-16-101:
+      folder: /KleeGroup-Hosting/TCC/FFSA
+      ipv4: 192.168.179.69
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-09-02-101:
+      folder: /KleeGroup-Hosting/DC4/FNMF
+      ipv4: 172.17.19.206
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-09-02-102:
+      folder: /KleeGroup-Hosting/DC4/FNMF
+      ipv4: 172.17.19.207
+      os: Other (32-bit)
+    VM-01-09-07-101:
+      folder: /KleeGroup-Hosting/DC4/FNMF
+      ipv4: 172.17.19.209
+      os: Other (32-bit)
+    VM-01-09-16-101:
+      folder: /KleeGroup-Hosting/DC4/FNMF
+      ipv4: 172.17.19.155
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-09-77-001:
+      folder: /KleeGroup-Hosting/TCC/FNMF
+      ipv4: 172.17.19.75
+      os: Red Hat Enterprise Linux 6 (64-bit)
+    VM-01-13-01-006:
+      folder: /KleeGroup-Hosting/TCC/France Active
+      ipv4: 172.17.12.235
+      os: Red Hat Enterprise Linux 5 (32-bit)
+    VM-01-13-01-007:
+      folder: /KleeGroup-Hosting/TCC/France Active
+      ipv4: 172.17.12.236
+      os: Red Hat Enterprise Linux 5 (32-bit)
+    VM-01-13-01-008:
+      folder: /KleeGroup-Hosting/TCC/France Active
+      ipv4: 172.17.12.237
+      os: Microsoft Windows Server 2003 Standard (32-bit)
+    VM-01-13-01-014:
+      folder: /KleeGroup-Hosting/TCC/France Active
+      ipv4: 172.17.12.240
+      os: Microsoft Windows Server 2008 (32-bit)
+    VM-01-13-01-030:
+      folder: /KleeGroup-Hosting/TCC/France Active
+      ipv4: 172.17.12.250
+      os: Other (64-bit)
+    VM-01-13-16-007:
+      folder: /KleeGroup-Hosting/TCC/France Active
+      ipv4: 172.17.12.118
+      os: Microsoft Windows Server 2003 (32-bit)
+    VM-01-13-16-008:
+      folder: /KleeGroup-Hosting/DC4/France Active
+      ipv4: 172.17.13.116
+      os: Microsoft Windows Server 2003 (32-bit)
+    VM-01-13-16-030:
+      folder: /KleeGroup-Hosting/TCC/France Active
+      ipv4: 172.17.12.123
+      os: Other (64-bit)
+    VM-01-13-77-101:
+      folder: /KleeGroup-Hosting/TCC/France Active
+      ipv4: 172.17.12.105
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-13-77-102:
+      folder: /KleeGroup-Hosting/TCC/France Active
+      ipv4: 172.17.12.106
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-13-77-103:
+      folder: /KleeGroup-Hosting/DC4/France Active
+      ipv4: 172.17.13.107
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-15-01-001:
+      folder: /KleeGroup-Hosting/TCC/ADN
+      ipv4: 172.17.15.10
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-17-01-101:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM124/Prod
+      ipv4: 172.17.113.206
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-17-01-102:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM124/Prod
+      ipv4: 172.17.113.207
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-17-16-101:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM124/Prod
+      ipv4: 172.17.113.151
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-17-20-101:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM124/Prod
+      ipv4: 172.17.113.211
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-17-22-101:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM124/Prod
+      ipv4: 172.17.113.208
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-17-22-102:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM124/Prod
+      ipv4: 172.17.113.209
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-17-77-003:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM121/Archive
+      ipv4: 172.17.113.195
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-01-17-77-101:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM124/Prod
+      ipv4: 172.17.113.216
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-17-77-102:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124
+      ipv4: 172.17.113.87
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-17-78-101:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM124/Prod
+      ipv4: 172.17.113.198
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-22-01-001:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.70
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-01-002:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.71
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-01-003:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.76
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-01-004:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.77
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-01-005:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.78
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-01-006:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.79
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-01-010:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.92
+      os: Other 2.6.x Linux (32-bit)
+    VM-01-22-01-101:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.74
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-01-102:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.75
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-02-001:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.80
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-02-003:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.82
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-16-001:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.22
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-16-002:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.23
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-77-001:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.20
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-77-002:
+      folder: /KleeGroup-Hosting/TCC/BG
+      ipv4: 172.17.22.148
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-ADC-001:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.89
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-DIM-001:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.59
+      os: Ubuntu Linux (64-bit)
+    VM-01-22-MIG-001:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.85
+      os: Microsoft Windows 10 (64-bit)
+    VM-01-22-PULSE-001:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.90
+      os: Other 2.6.x Linux (64-bit)
+    VM-01-22-PULSE-001-TEST-SEC:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: ''
+      os: ''
+    VM-01-22-RDS-001:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.21
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-RDS-002:
+      folder: /KleeGroup-Hosting/TCC/BG
+      ipv4: 172.17.22.149
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-22-WSUS-001:
+      folder: /KleeGroup-Hosting/DC4/BG
+      ipv4: 172.17.22.93
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-24-01-001:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.70
+      os: CentOS 7 (64-bit)
+    VM-01-24-01-002:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.71
+      os: CentOS 7 (64-bit)
+    VM-01-24-01-003:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.74
+      os: CentOS 7 (64-bit)
+    VM-01-24-01-004:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.75
+      os: CentOS 7 (64-bit)
+    VM-01-24-01-101:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.72
+      os: CentOS 4/5 (64-bit)
+    VM-01-24-02-001:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.76
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-24-10-001:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.77
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-24-16-001:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.19
+      os: CentOS 6 (64-bit)
+    VM-01-24-16-002:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.20
+      os: CentOS 6 (64-bit)
+    VM-01-24-16-101:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.23
+      os: Other (32-bit)
+    VM-01-24-17-001:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.73
+      os: CentOS 4/5 (64-bit)
+    VM-01-24-61-001:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.22
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-24-87-001:
+      folder: /KleeGroup-Hosting/DC4/AGEFICE
+      ipv4: 172.17.24.21
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-29-01-001:
+      folder: /KleeGroup-Hosting/DC4/ALLIANZ/Prod
+      ipv4: 172.17.29.80
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-29-02-001:
+      folder: /KleeGroup-Hosting/DC4/ALLIANZ/Prod
+      ipv4: 172.17.29.81
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-29-02-002:
+      folder: /KleeGroup-Hosting/DC4/ALLIANZ/Prod
+      ipv4: 172.17.29.83
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-29-12-001:
+      folder: /KleeGroup-Hosting/DC4/ALLIANZ/Prod
+      ipv4: 172.17.29.84
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-29-16-001:
+      folder: /KleeGroup-Hosting/DC4/ALLIANZ/Prod
+      ipv4: 172.17.29.29
+      os: CentOS 7 (64-bit)
+    VM-01-29-17-001:
+      folder: /KleeGroup-Hosting/DC4/ALLIANZ/Prod
+      ipv4: 172.17.29.82
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-30-01-001:
+      folder: /KleeGroup-Hosting/TCC/Publisoft
+      ipv4: 192.168.114.171
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-30-16-004:
+      folder: /KleeGroup-Hosting/TCC/Publisoft
+      ipv4: 192.168.114.75
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-30-16-005:
+      folder: /KleeGroup-Hosting/TCC/Publisoft
+      ipv4: 192.168.114.76
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-30-77-001:
+      folder: /KleeGroup-Hosting/TCC/Publisoft
+      ipv4: 192.168.114.121
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-30-77-002:
+      folder: /KleeGroup-Hosting/DC4/Publisoft
+      ipv4: 192.168.124.121
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-30-78-001:
+      folder: /KleeGroup-Hosting/TCC/Publisoft
+      ipv4: 192.168.114.180
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-30-78-100:
+      folder: /KleeGroup-Hosting/TCC/Publisoft
+      ipv4: 192.168.114.163
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-30-78-101:
+      folder: /KleeGroup-Hosting/TCC/Publisoft
+      ipv4: 192.168.114.162
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-30-80-001:
+      folder: /KleeGroup-Hosting/TCC/Publisoft
+      ipv4: 192.168.114.124
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-30-99-001:
+      folder: /KleeGroup-Hosting/TCC/Publisoft
+      ipv4: 192.168.114.126
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-31-01-001:
+      folder: /KleeGroup-Hosting/DC4/SNCF
+      ipv4: 172.17.31.66
+      os: CentOS 7 (64-bit)
+    VM-01-31-02-001:
+      folder: /KleeGroup-Hosting/DC4/SNCF
+      ipv4: 172.17.31.67
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-31-16-001:
+      folder: /KleeGroup-Hosting/DC4/SNCF
+      ipv4: 172.17.31.23
+      os: CentOS 7 (64-bit)
+    VM-01-31-17-001:
+      folder: /KleeGroup-Hosting/DC4/SNCF
+      ipv4: 172.17.31.68
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-33-01-201:
+      folder: /KleeGroup-Hosting/TCC/CFAO
+      ipv4: 172.16.92.111
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-33-01-202:
+      folder: /KleeGroup-Hosting/TCC/CFAO
+      ipv4: 172.16.92.112
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-33-16-201:
+      folder: /KleeGroup-Hosting/TCC/CFAO
+      ipv4: 172.16.92.19
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-33-22-201:
+      folder: /KleeGroup-Hosting/TCC/CFAO
+      ipv4: 172.16.92.113
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-33-22-202:
+      folder: /KleeGroup-Hosting/TCC/CFAO
+      ipv4: 172.16.92.114
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-33-77-201:
+      folder: /KleeGroup-Hosting/TCC/CFAO
+      ipv4: 172.16.92.110
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-33-77-202:
+      folder: /KleeGroup-Hosting/DC4/CFAO
+      ipv4: 172.16.192.110
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-33-78-201:
+      folder: /KleeGroup-Hosting/TCC/CFAO
+      ipv4: 172.16.92.115
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-33-VADC-001:
+      folder: /KleeGroup-Hosting/TCC/CFAO
+      ipv4: 172.16.92.123
+      os: Ubuntu Linux (64-bit)
+    VM-01-33-VADC-002:
+      folder: /KleeGroup-Hosting/TCC/CFAO
+      ipv4: 172.16.92.124
+      os: Ubuntu Linux (64-bit)
+    VM-01-36-01-001:
+      folder: /KleeGroup-Hosting/DC4/TAE
+      ipv4: 172.17.36.66
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-36-02-001:
+      folder: /KleeGroup-Hosting/DC4/TAE
+      ipv4: 172.17.36.67
+      os: CentOS 7 (64-bit)
+    VM-01-36-02-002:
+      folder: /KleeGroup-Hosting/TCC/TAE
+      ipv4: 172.17.36.199
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-36-16-001:
+      folder: /KleeGroup-Hosting/DC4/TAE
+      ipv4: 172.17.36.23
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-36-16-002:
+      folder: /KleeGroup-Hosting/TCC/TAE
+      ipv4: 172.17.36.154
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-36-17-001:
+      folder: /KleeGroup-Hosting/DC4/TAE
+      ipv4: 172.17.36.68
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-37-01-001:
+      folder: /KleeGroup-Hosting/DC4/FEI
+      ipv4: 172.17.37.66
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-37-01-002:
+      folder: /KleeGroup-Hosting/DC4/FEI
+      ipv4: 172.17.37.67
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-37-01-101:
+      folder: /KleeGroup-Hosting/DC4/FEI
+      ipv4: 172.17.37.68
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-37-16-001:
+      folder: /KleeGroup-Hosting/DC4/FEI
+      ipv4: 172.17.37.18
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-37-17-001:
+      folder: /KleeGroup-Hosting/DC4/FEI
+      ipv4: 172.17.37.19
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-37-18-001:
+      folder: /KleeGroup-Hosting/DC4/FEI
+      ipv4: 172.17.37.20
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-41-01-101:
+      folder: /KleeGroup-Hosting/DC4/Safe Easy
+      ipv4: 172.17.41.70
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-41-02-101:
+      folder: /KleeGroup-Hosting/DC4/Safe Easy
+      ipv4: 172.17.41.71
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-41-02-102:
+      folder: /KleeGroup-Hosting/TCC/Safe Easy
+      ipv4: 172.17.41.203
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-41-16-101:
+      folder: /KleeGroup-Hosting/DC4/Safe Easy
+      ipv4: 172.17.41.25
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-41-16-102:
+      folder: /KleeGroup-Hosting/TCC/Safe Easy
+      ipv4: 172.17.41.156
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-41-17-101:
+      folder: /KleeGroup-Hosting/DC4/Safe Easy
+      ipv4: 172.17.41.72
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-42-01-001:
+      folder: /KleeGroup-Hosting/DC4/SPARK CEVA
+      ipv4: 172.17.42.66
+      os: CentOS 7 (64-bit)
+    VM-01-42-02-001:
+      folder: /KleeGroup-Hosting/DC4/SPARK CEVA
+      ipv4: 172.17.42.67
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-42-02-002:
+      folder: /KleeGroup-Hosting/TCC/SPARK CEVA
+      ipv4: 172.17.42.199
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-42-02-003:
+      folder: /KleeGroup-Hosting/DC4/SPARK CEVA
+      ipv4: 172.17.42.71
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-42-12-001:
+      folder: /KleeGroup-Hosting/DC4/SPARK CEVA
+      ipv4: 172.17.42.70
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-42-16-001:
+      folder: /KleeGroup-Hosting/DC4/SPARK CEVA
+      ipv4: 172.17.42.23
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-42-16-002:
+      folder: /KleeGroup-Hosting/TCC/SPARK CEVA
+      ipv4: 172.17.42.154
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-42-17-001:
+      folder: /KleeGroup-Hosting/DC4/SPARK CEVA
+      ipv4: 172.17.42.68
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-45-01-001:
+      folder: /KleeGroup-Hosting/DC4/GALIMMO
+      ipv4: 172.17.45.66
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-45-16-001:
+      folder: /KleeGroup-Hosting/DC4/GALIMMO
+      ipv4: 172.17.45.18
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-45-17-001:
+      folder: /KleeGroup-Hosting/DC4/GALIMMO
+      ipv4: 172.17.45.19
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-46-01-001:
+      folder: /KleeGroup-Hosting/TCC/TOTAL
+      ipv4: 172.17.46.66
+      os: CentOS 7 (64-bit)
+    VM-01-46-01-002:
+      folder: /KleeGroup-Hosting/TCC/TOTAL
+      ipv4: 172.17.46.67
+      os: CentOS 7 (64-bit)
+    VM-01-46-02-001:
+      folder: /KleeGroup-Hosting/TCC/TOTAL
+      ipv4: 172.17.46.68
+      os: CentOS 7 (64-bit)
+    VM-01-46-02-002:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.199
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-46-06-001:
+      folder: /KleeGroup-Hosting/TCC/TOTAL
+      ipv4: 172.17.46.72
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-46-12-001:
+      folder: /KleeGroup-Hosting/TCC/TOTAL
+      ipv4: 172.17.46.71
+      os: CentOS 7 (64-bit)
+    VM-01-46-16-001:
+      folder: /KleeGroup-Hosting/TCC/TOTAL
+      ipv4: 172.17.46.23
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-46-16-002:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.154
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-46-17-001:
+      folder: /KleeGroup-Hosting/TCC/TOTAL
+      ipv4: 172.17.46.70
+      os: CentOS 7 (64-bit)
+    VM-01-46-90-001:
+      folder: /KleeGroup-Hosting/TCC/TOTAL
+      ipv4: 172.17.46.92
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-47-01-001:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.66
+      os: Other (32-bit)
+    VM-01-47-01-002:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.67
+      os: Other (32-bit)
+    VM-01-47-01-101:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.68
+      os: Other (32-bit)
+    VM-01-47-01-102:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.69
+      os: Other (32-bit)
+    VM-01-47-01-301:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.74
+      os: Other (32-bit)
+    VM-01-47-02-001:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.70
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-47-02-002:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.71
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-47-02-003:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.72
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-47-02-004:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.73
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-47-02-201:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.75
+      os: Other (32-bit)
+    VM-01-47-12-001:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.76
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-47-16-001:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.18
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-47-16-101:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.20
+      os: Other (32-bit)
+    VM-01-47-16-201:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.21
+      os: Other (32-bit)
+    VM-01-47-17-001:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.19
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-47-17-301:
+      folder: /KleeGroup-Hosting/DC4/CERTDC
+      ipv4: 172.17.47.22
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-50-01-001:
+      folder: /KleeGroup-Hosting/DC4/HAS
+      ipv4: 172.17.50.66
+      os: CentOS 7 (64-bit)
+    VM-01-50-02-001:
+      folder: /KleeGroup-Hosting/DC4/HAS
+      ipv4: 172.17.50.67
+      os: CentOS 7 (64-bit)
+    VM-01-50-02-002:
+      folder: /KleeGroup-Hosting/TCC/HAS
+      ipv4: 172.17.50.196
+      os: CentOS 7 (64-bit)
+    VM-01-50-06-001:
+      folder: /KleeGroup-Hosting/DC4/HAS
+      ipv4: 172.17.50.69
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-50-12-001:
+      folder: /KleeGroup-Hosting/DC4/HAS
+      ipv4: 172.17.50.70
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-50-16-001:
+      folder: /KleeGroup-Hosting/DC4/HAS
+      ipv4: 172.17.50.18
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-50-16-002:
+      folder: /KleeGroup-Hosting/TCC/HAS
+      ipv4: 172.17.50.147
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-50-17-001:
+      folder: /KleeGroup-Hosting/DC4/HAS
+      ipv4: 172.17.50.71
+      os: CentOS 7 (64-bit)
+    VM-01-51-01-011:
+      folder: /KleeGroup-Hosting/TCC/Malteurop
+      ipv4: 172.16.107.211
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-01-51-01-012:
+      folder: /KleeGroup-Hosting/TCC/Malteurop
+      ipv4: 172.16.107.212
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-01-51-16-011:
+      folder: /KleeGroup-Hosting/TCC/Malteurop
+      ipv4: 172.16.107.156
+      os: ''
+    VM-01-51-21-011:
+      folder: /KleeGroup-Hosting/TCC/Malteurop
+      ipv4: 172.16.107.215
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-01-51-22-011:
+      folder: /KleeGroup-Hosting/TCC/Malteurop
+      ipv4: 172.16.107.213
+      os: ''
+    VM-01-51-22-012:
+      folder: /KleeGroup-Hosting/TCC/Malteurop
+      ipv4: 172.16.107.214
+      os: ''
+    VM-01-51-77-001:
+      folder: /KleeGroup-Hosting/TCC/Malteurop
+      ipv4: 172.16.107.216
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-01-51-77-002:
+      folder: /KleeGroup-Hosting/TCC/Malteurop
+      ipv4: 172.16.107.217
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-01-51-77-003:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.210
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-01-51-78-011:
+      folder: /KleeGroup-Hosting/TCC/Malteurop
+      ipv4: 172.16.107.200
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-01-52-01-101:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.214
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-52-01-102:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.215
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-52-02-101:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.216
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-52-02-102:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.217
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-52-16-101:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.146
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-52-16-102:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.147
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-52-22-101:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.219
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-52-22-102:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.220
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-52-77-101:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.222
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-52-78-101:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.221
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-53-01-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Production
+      ipv4: 172.17.53.196
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-53-01-002:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Production
+      ipv4: 172.17.53.197
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-53-02-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Production
+      ipv4: 172.17.53.198
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-53-02-002:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Production
+      ipv4: 172.17.53.199
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-53-16-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Production
+      ipv4: 172.17.53.146
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-53-22-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Production
+      ipv4: 172.17.53.200
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-53-22-002:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Production
+      ipv4: 172.17.53.201
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-53-22-003:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Production
+      ipv4: 172.17.53.202
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-53-77-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Production
+      ipv4: 172.17.53.194
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-53-77-002:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Production
+      ipv4: 172.17.53.195
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-54-01-001:
+      folder: /KleeGroup-Hosting/TCC/TERREAL
+      ipv4: 172.17.54.67
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-54-16-001:
+      folder: /KleeGroup-Hosting/TCC/TERREAL
+      ipv4: 172.17.54.18
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-54-22-001:
+      folder: /KleeGroup-Hosting/TCC/TERREAL
+      ipv4: 172.17.54.68
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-54-77-001:
+      folder: /KleeGroup-Hosting/TCC/TERREAL
+      ipv4: 172.17.54.66
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-56-01-001:
+      folder: /KleeGroup-Hosting/TCC/BNPP
+      ipv4: 172.17.56.66
+      os: CentOS 7 (64-bit)
+    VM-01-56-02-001:
+      folder: /KleeGroup-Hosting/TCC/BNPP
+      ipv4: 172.17.56.67
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-56-06-001:
+      folder: /KleeGroup-Hosting/TCC/BNPP
+      ipv4: 172.17.56.68
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-56-12-001:
+      folder: /KleeGroup-Hosting/TCC/BNPP
+      ipv4: 172.17.56.69
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-56-16-001:
+      folder: /KleeGroup-Hosting/TCC/BNPP
+      ipv4: 172.17.56.18
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-56-17-001:
+      folder: /KleeGroup-Hosting/TCC/BNPP
+      ipv4: 172.17.56.70
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-57-01-001:
+      folder: /KleeGroup-Hosting/DC4/GTT
+      ipv4: 172.17.57.66
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-57-01-002:
+      folder: /KleeGroup-Hosting/DC4/GTT
+      ipv4: 172.17.57.67
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-57-01-101:
+      folder: /KleeGroup-Hosting/DC4/GTT
+      ipv4: 172.17.57.68
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-57-01-102:
+      folder: /KleeGroup-Hosting/DC4/GTT
+      ipv4: 172.17.57.69
+      os: Other (32-bit)
+    VM-01-57-16-001:
+      folder: /KleeGroup-Hosting/DC4/GTT
+      ipv4: 172.17.57.18
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-57-16-002:
+      folder: /KleeGroup-Hosting/DC4/GTT
+      ipv4: 172.17.57.19
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-59-01-101:
+      folder: /KleeGroup-Hosting/TCC/MOBIVIA
+      ipv4: 172.17.114.72
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-59-01-102:
+      folder: /KleeGroup-Hosting/TCC/MOBIVIA
+      ipv4: 172.17.114.73
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-59-16-101:
+      folder: /KleeGroup-Hosting/TCC/MOBIVIA
+      ipv4: 172.17.114.118
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-59-22-101:
+      folder: /KleeGroup-Hosting/TCC/MOBIVIA
+      ipv4: 172.17.114.74
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-59-22-102:
+      folder: /KleeGroup-Hosting/TCC/MOBIVIA
+      ipv4: 172.17.114.75
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-59-77-101:
+      folder: /KleeGroup-Hosting/TCC/MOBIVIA
+      ipv4: 172.17.114.70
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-59-77-102:
+      folder: /KleeGroup-Hosting/DC4/MOBIVIA
+      ipv4: 172.17.114.204
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-59-78-101:
+      folder: /KleeGroup-Hosting/TCC/MOBIVIA
+      ipv4: 172.17.114.71
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-60-01-001:
+      folder: /KleeGroup-Hosting/TCC/TIPI
+      ipv4: 172.17.60.194
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-62-01-101:
+      folder: /KleeGroup-Hosting/TCC/Arc
+      ipv4: 192.168.164.82
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-62-01-102:
+      folder: /KleeGroup-Hosting/TCC/Arc
+      ipv4: 192.168.164.83
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-62-16-101:
+      folder: /KleeGroup-Hosting/TCC/Arc
+      ipv4: 192.168.164.23
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-62-22-101:
+      folder: /KleeGroup-Hosting/TCC/Arc
+      ipv4: 192.168.164.84
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-62-22-102:
+      folder: /KleeGroup-Hosting/TCC/Arc
+      ipv4: 192.168.164.85
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-62-77-101:
+      folder: /KleeGroup-Hosting/TCC/Arc
+      ipv4: 192.168.164.81
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-62-77-102:
+      folder: /KleeGroup-Hosting/DC4/Arc
+      ipv4: 192.168.164.201
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-63-01-001:
+      folder: /KleeGroup-Hosting/DC4/Eurotoll
+      ipv4: 172.17.63.67
+      os: CentOS 4/5/6/7 (64-bit)
+    VM-01-63-01-002:
+      folder: /KleeGroup-Hosting/DC4/Eurotoll
+      ipv4: 172.17.63.68
+      os: CentOS 4/5 (64-bit)
+    VM-01-63-01-003:
+      folder: /KleeGroup-Hosting/TCC/Eurotoll
+      ipv4: 172.17.63.195
+      os: CentOS 4/5 (64-bit)
+    VM-01-63-01-101:
+      folder: /KleeGroup-Hosting/DC4/Eurotoll
+      ipv4: 172.17.63.81
+      os: CentOS 7 (64-bit)
+    VM-01-63-16-001:
+      folder: /KleeGroup-Hosting/DC4/Eurotoll
+      ipv4: 172.17.63.19
+      os: CentOS 4/5 (64-bit)
+    VM-01-63-16-002:
+      folder: /KleeGroup-Hosting/TCC/Eurotoll
+      ipv4: 172.17.63.147
+      os: CentOS 4/5 (64-bit)
+    VM-01-63-16-101:
+      folder: /KleeGroup-Hosting/DC4/Eurotoll
+      ipv4: 172.17.63.23
+      os: CentOS 7 (64-bit)
+    VM-01-63-16-102:
+      folder: /KleeGroup-Hosting/DC4/Eurotoll
+      ipv4: '?'
+      os: CentOS 4/5 (64-bit)
+    VM-01-85-01-101:
+      folder: /KleeGroup-Hosting/TCC/Valtech
+      ipv4: 192.168.185.76
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-85-01-102:
+      folder: /KleeGroup-Hosting/TCC/Valtech
+      ipv4: 192.168.185.77
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-85-16-101:
+      folder: /KleeGroup-Hosting/TCC/Valtech
+      ipv4: 192.168.185.19
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-85-22-101:
+      folder: /KleeGroup-Hosting/TCC/Valtech
+      ipv4: 192.168.185.78
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-85-22-102:
+      folder: /KleeGroup-Hosting/TCC/Valtech
+      ipv4: 192.168.185.79
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-85-77-101:
+      folder: /KleeGroup-Hosting/TCC/Valtech
+      ipv4: 192.168.185.75
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-85-77-102:
+      folder: /KleeGroup-Hosting/DC4/Valtech
+      ipv4: 192.168.185.205
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-87-01-101:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.73
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-87-01-102:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.74
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-87-16-101:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.19
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-87-16-102:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.20
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-87-77-101:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.71
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-87-77-102:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.72
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-87-78-101:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.75
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-01-97-01-001:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.17.97.66
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-97-17-001:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.17.97.18
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-97-17-002:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.17.97.19
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-97-17-003:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.17.97.20
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-01-98-01-001:
+      folder: /KleeGroup-Hosting/DC4/CHATBOT
+      ipv4: 172.17.98.66
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-98-01-002:
+      folder: /KleeGroup-Hosting/DC4/CHATBOT
+      ipv4: 172.17.98.67
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-98-16-001:
+      folder: /KleeGroup-Hosting/DC4/CHATBOT
+      ipv4: 172.17.98.18
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-99-01-004:
+      folder: /KleeGroup-Hosting/TCC/Mutualise
+      ipv4: 192.168.89.251
+      os: Red Hat Enterprise Linux 6 (64-bit)
+    VM-01-99-01-005:
+      folder: /KleeGroup-Hosting/TCC/Mutualise
+      ipv4: 192.168.89.252
+      os: Red Hat Enterprise Linux 6 (64-bit)
+    VM-01-99-01-006:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.89.5
+      os: CentOS 6 (64-bit)
+    VM-01-99-01-007:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.89.6
+      os: ''
+    VM-01-99-01-008:
+      folder: /KleeGroup-Hosting/TCC/Mutualise
+      ipv4: 192.168.43.201
+      os: CentOS 7 (64-bit)
+    VM-01-99-01-009:
+      folder: /KleeGroup-Hosting/TCC/Mutualise
+      ipv4: 192.168.43.33
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-99-01-050:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.180.50
+      os: CentOS 4/5/6/7 (64-bit)
+    VM-01-99-01-101:
+      folder: /KleeGroup-Hosting/TCC/Kleegroup
+      ipv4: 192.168.43.143
+      os: Other (32-bit)
+    VM-01-99-01-201:
+      folder: /KleeGroup-Hosting/TCC/KleePerformance
+      ipv4: 192.168.43.155
+      os: Other (32-bit)
+    VM-01-99-01-209:
+      folder: /KleeGroup-Hosting/TCC/Kleegroup
+      ipv4: 192.168.43.110
+      os: Other (32-bit)
+    VM-01-99-01-801:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.180.123
+      os: CentOS 7 (64-bit)
+    VM-01-99-02-003:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.180.29
+      os: CentOS 4/5 (64-bit)
+    VM-01-99-02-004:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.180.30
+      os: Red Hat Enterprise Linux 6 (64-bit)
+    VM-01-99-02-401:
+      folder: /KleeGroup-Hosting/TCC/Kleegroup
+      ipv4: 192.168.43.91
+      os: Other (32-bit)
+    VM-01-99-02-801:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.180.124
+      os: CentOS 7 (64-bit)
+    VM-01-99-02-811:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.89.92
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-99-02-812:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.89.93
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-99-02-821:
+      folder: /KleeGroup-Hosting
+      ipv4: 192.168.89.162
+      os: Other (32-bit)
+    VM-01-99-02-822:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: 192.168.89.163
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-99-05-801:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.140.124
+      os: CentOS 7 (64-bit)
+    VM-01-99-16-050:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.140.50
+      os: CentOS 4/5/6/7 (64-bit)
+    VM-01-99-16-101:
+      folder: /KleeGroup-Hosting/TCC/Kleegroup
+      ipv4: 192.168.51.100
+      os: Other (32-bit)
+    VM-01-99-16-801:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.140.123
+      os: CentOS 7 (64-bit)
+    VM-01-99-33-101:
+      folder: /KleeGroup-Hosting/TCC/Mutualise
+      ipv4: 192.168.242.221
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-99-43-001:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 192.168.89.77
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-99-55-001:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.180.55
+      os: Microsoft Windows Server 2016 (64-bit)
+    VM-01-99-77-003:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.140.31
+      os: CentOS 4/5 (64-bit)
+    VM-01-99-77-004:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.140.32
+      os: CentOS 4/5 (64-bit)
+    VM-01-99-81-001:
+      folder: /KleeGroup-Hosting/TCC/Kleegroup
+      ipv4: 172.19.78.146
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-01-99-90-001:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: 192.168.242.10
+      os: CentOS 4/5 (64-bit)
+    VM-01-99-90-101:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: 192.168.242.15
+      os: Other 3.x Linux (64-bit)
+    VM-01-99-90-302:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: 192.168.242.206
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-K3D-01-101:
+      folder: /KleeGroup-Hosting/TCC/KleeMedia
+      ipv4: 192.168.43.136
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-K3D-16-001:
+      folder: /KleeGroup-Hosting/TCC/KleeMedia
+      ipv4: 192.168.51.138
+      os: CentOS 6 (64-bit)
+    VM-01-KC-01-001:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.163
+      os: Microsoft Windows Server 2008 (32-bit)
+    VM-01-KC-01-015:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.176
+      os: CentOS 4/5 (64-bit)
+    VM-01-KC-01-100:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.189
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-KC-01-101:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.190
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-01-KC-01-102:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.188
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-KC-01-112:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.182
+      os: Other (32-bit)
+    VM-01-KC-02-100:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.61
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-01-KC-03-002:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.168
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-KC-03-004:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.180
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-KC-04-001:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.38
+      os: Microsoft Windows Server 2008 (32-bit)
+    VM-01-KC-04-002:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.39
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-01-KC-04-101:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.181
+      os: Microsoft Windows Server 2016 (64-bit)
+    VM-01-KC-16-001:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce/Databases
+      ipv4: 192.168.116.34
+      os: CentOS 4/5/6 (64-bit)
+    VM-01-KC-16-002:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.35
+      os: CentOS 4/5 (64-bit)
+    VM-01-KC-16-101:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.45
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-KC-16-102:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.46
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-KC-16-103:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.47
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-KC-16-104:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.48
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-KC-16-105:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.49
+      os: Other (32-bit)
+    VM-01-KC-16-201:
+      folder: /KleeGroup-Hosting/TCC/KleeCommerce
+      ipv4: 192.168.116.53
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-01-KM-01-001:
+      folder: /KleeGroup-Hosting/TCC/KleeMedia
+      ipv4: 192.168.116.164
+      os: Microsoft Windows Server 2008 (32-bit)
+    VM-01-KM-01-002:
+      folder: /KleeGroup-Hosting/TCC/KleeMedia
+      ipv4: 192.168.116.166
+      os: Microsoft Windows Server 2008 (32-bit)
+    VM-01-KM-01-003:
+      folder: /KleeGroup-Hosting/TCC/KleeMedia
+      ipv4: 192.168.116.179
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-01-KM-16-001:
+      folder: /KleeGroup-Hosting/TCC/KleeMedia
+      ipv4: 192.168.116.36
+      os: CentOS 4/5 (64-bit)
+    VM-01-KM-16-002:
+      folder: /KleeGroup-Hosting/TCC/KleeMedia
+      ipv4: 192.168.116.42
+      os: CentOS 4/5 (64-bit)
+    VM-02-00-16-001:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 172.20.201.34
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-02-05-01-601:
+      folder: /KleeGroup-Hosting/DC4/DGEFP-FSE
+      ipv4: 172.17.5.219
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-05-01-602:
+      folder: /KleeGroup-Hosting/DC4/DGEFP-FSE
+      ipv4: 172.17.5.220
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-05-01-701:
+      folder: /KleeGroup-Hosting/TCC/DGEFP-FSE
+      ipv4: 172.17.5.85
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-05-16-601:
+      folder: /KleeGroup-Hosting/DC4/DGEFP-FSE
+      ipv4: 172.17.5.158
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-05-16-701:
+      folder: /KleeGroup-Hosting/TCC/DGEFP-FSE
+      ipv4: 172.17.5.18
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-08-02-101:
+      folder: /KleeGroup-Hosting/DC4/FFSA
+      ipv4: 192.168.179.120
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-02-08-02-102:
+      folder: /KleeGroup-Hosting/DC4/FFSA
+      ipv4: 192.168.179.121
+      os: Other (32-bit)
+    VM-02-08-16-101:
+      folder: /KleeGroup-Hosting/DC4/FFSA
+      ipv4: 192.168.179.101
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-02-09-02-101:
+      folder: /KleeGroup-Hosting/TCC/FNMF
+      ipv4: 172.17.19.76
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-02-09-02-102:
+      folder: /KleeGroup-Hosting/TCC/FNMF
+      ipv4: 172.17.19.77
+      os: Other (32-bit)
+    VM-02-09-07-101:
+      folder: /KleeGroup-Hosting/TCC/FNMF
+      ipv4: 172.17.19.79
+      os: Other (32-bit)
+    VM-02-09-16-101:
+      folder: /KleeGroup-Hosting/TCC/FNMF
+      ipv4: 172.17.19.25
+      os: Other (32-bit)
+    VM-02-09-77-001:
+      folder: /KleeGroup-Hosting/DC4/FNMF
+      ipv4: 172.17.19.205
+      os: ''
+    VM-02-13-01-007:
+      folder: /KleeGroup-Hosting/DC4/France Active
+      ipv4: 172.17.13.233
+      os: CentOS 7 (64-bit)
+    VM-02-13-01-008:
+      folder: /KleeGroup-Hosting/DC4/France Active
+      ipv4: 172.17.13.236
+      os: Microsoft Windows Server 2003 Standard (32-bit)
+    VM-02-13-01-013:
+      folder: /KleeGroup-Hosting/DC4/France Active
+      ipv4: 172.17.13.239
+      os: Microsoft Windows Server 2008 (32-bit)
+    VM-02-17-01-101:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/PreProd
+      ipv4: 172.17.113.77
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-02-17-01-102:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/PreProd
+      ipv4: 172.17.113.78
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-02-17-16-101:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/PreProd
+      ipv4: 172.17.113.19
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-02-17-20-101:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/PreProd
+      ipv4: 172.17.113.81
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-02-17-22-101:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/PreProd
+      ipv4: 172.17.113.79
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-02-17-22-102:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/PreProd
+      ipv4: 172.17.113.80
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-02-17-78-101:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/PreProd
+      ipv4: 172.17.113.82
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-02-24-01-001:
+      folder: /KleeGroup-Hosting/TCC/AGEFICE
+      ipv4: 172.17.24.198
+      os: CentOS 7 (64-bit)
+    VM-02-24-01-002:
+      folder: /KleeGroup-Hosting/TCC/AGEFICE
+      ipv4: 172.17.24.201
+      os: CentOS 4/5 (64-bit)
+    VM-02-24-01-101:
+      folder: /KleeGroup-Hosting/TCC/AGEFICE
+      ipv4: 172.17.24.199
+      os: CentOS 7 (64-bit)
+    VM-02-24-02-001:
+      folder: /KleeGroup-Hosting/TCC/AGEFICE
+      ipv4: 172.17.24.202
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-24-16-001:
+      folder: /KleeGroup-Hosting/TCC/AGEFICE
+      ipv4: 172.17.24.147
+      os: CentOS 4/5 (64-bit)
+    VM-02-24-16-101:
+      folder: /KleeGroup-Hosting/TCC/AGEFICE
+      ipv4: 172.17.24.150
+      os: Other (32-bit)
+    VM-02-24-17-001:
+      folder: /KleeGroup-Hosting/TCC/AGEFICE
+      ipv4: 172.17.24.200
+      os: CentOS 4/5 (64-bit)
+    VM-02-24-61-001:
+      folder: /KleeGroup-Hosting/TCC/AGEFICE
+      ipv4: 172.17.24.149
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-24-87-001:
+      folder: /KleeGroup-Hosting/TCC/AGEFICE
+      ipv4: 172.17.24.148
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-31-01-001:
+      folder: /KleeGroup-Hosting/TCC/SNCF
+      ipv4: 172.17.31.196
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-31-02-001:
+      folder: /KleeGroup-Hosting/TCC/SNCF
+      ipv4: 172.17.31.197
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-31-16-001:
+      folder: /KleeGroup-Hosting/TCC/SNCF
+      ipv4: 172.17.31.153
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-31-17-001:
+      folder: /KleeGroup-Hosting/TCC/SNCF
+      ipv4: 172.17.31.198
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-33-01-201:
+      folder: /KleeGroup-Hosting/DC4/CFAO
+      ipv4: 172.16.192.111
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-33-16-201:
+      folder: /KleeGroup-Hosting/DC4/CFAO
+      ipv4: 172.16.192.19
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-33-22-201:
+      folder: /KleeGroup-Hosting/DC4/CFAO
+      ipv4: 172.16.192.113
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-33-78-201:
+      folder: /KleeGroup-Hosting/DC4/CFAO
+      ipv4: 172.16.192.115
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-02-33-VADC-001:
+      folder: /KleeGroup-Hosting/DC4/CFAO
+      ipv4: 172.16.192.123
+      os: Ubuntu Linux (64-bit)
+    VM-02-33-VADC-002:
+      folder: /KleeGroup-Hosting/DC4/CFAO
+      ipv4: 172.16.192.124
+      os: Ubuntu Linux (64-bit)
+    VM-02-36-01-001:
+      folder: /KleeGroup-Hosting/TCC/TAE
+      ipv4: 172.17.36.196
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-36-02-001:
+      folder: /KleeGroup-Hosting/TCC/TAE
+      ipv4: 172.17.36.197
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-36-02-002:
+      folder: /KleeGroup-Hosting/DC4/TAE
+      ipv4: 172.17.36.69
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-36-16-001:
+      folder: /KleeGroup-Hosting/TCC/TAE
+      ipv4: 172.17.36.153
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-36-16-002:
+      folder: /KleeGroup-Hosting/DC4/TAE
+      ipv4: 172.17.36.24
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-36-17-001:
+      folder: /KleeGroup-Hosting/TCC/TAE
+      ipv4: 172.17.36.198
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-37-01-001:
+      folder: /KleeGroup-Hosting/TCC/FEI
+      ipv4: 172.17.37.194
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-37-01-002:
+      folder: /KleeGroup-Hosting/TCC/FEI
+      ipv4: 172.17.37.195
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-37-01-101:
+      folder: /KleeGroup-Hosting/TCC/FEI
+      ipv4: 172.17.37.196
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-37-16-001:
+      folder: /KleeGroup-Hosting/TCC/FEI
+      ipv4: 172.17.37.146
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-37-17-001:
+      folder: /KleeGroup-Hosting/TCC/FEI
+      ipv4: 172.17.37.147
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-37-18-001:
+      folder: /KleeGroup-Hosting/TCC/FEI
+      ipv4: 172.17.37.148
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-41-01-101:
+      folder: /KleeGroup-Hosting/TCC/Safe Easy
+      ipv4: 172.17.41.200
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-41-02-101:
+      folder: /KleeGroup-Hosting/TCC/Safe Easy
+      ipv4: 172.17.41.201
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-41-02-102:
+      folder: /KleeGroup-Hosting/DC4/Safe Easy
+      ipv4: 172.17.41.73
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-41-16-101:
+      folder: /KleeGroup-Hosting/TCC/Safe Easy
+      ipv4: 172.17.41.155
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-41-16-102:
+      folder: /KleeGroup-Hosting/DC4/Safe Easy
+      ipv4: 172.17.41.26
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-41-17-101:
+      folder: /KleeGroup-Hosting/TCC/Safe Easy
+      ipv4: 172.17.41.202
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-42-01-001:
+      folder: /KleeGroup-Hosting/TCC/SPARK CEVA
+      ipv4: 172.17.42.196
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-42-02-001:
+      folder: /KleeGroup-Hosting/TCC/SPARK CEVA
+      ipv4: 172.17.42.197
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-42-02-002:
+      folder: /KleeGroup-Hosting/DC4/SPARK CEVA
+      ipv4: 172.17.42.69
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-42-02-003:
+      folder: /KleeGroup-Hosting/TCC/SPARK CEVA
+      ipv4: 172.17.42.201
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-42-12-001:
+      folder: /KleeGroup-Hosting/TCC/SPARK CEVA
+      ipv4: 172.17.42.200
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-42-16-001:
+      folder: /KleeGroup-Hosting/TCC/SPARK CEVA
+      ipv4: 172.17.42.153
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-42-16-002:
+      folder: /KleeGroup-Hosting/DC4/SPARK CEVA
+      ipv4: 172.17.42.24
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-42-17-001:
+      folder: /KleeGroup-Hosting/TCC/SPARK CEVA
+      ipv4: 172.17.42.198
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-45-01-001:
+      folder: /KleeGroup-Hosting/TCC/GALIMMO
+      ipv4: 172.17.45.194
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-45-16-001:
+      folder: /KleeGroup-Hosting/TCC/GALIMMO
+      ipv4: 172.17.45.146
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-45-17-001:
+      folder: /KleeGroup-Hosting/TCC/GALIMMO
+      ipv4: 172.17.45.147
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-02-46-01-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.196
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-46-01-002:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.197
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-46-02-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.198
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-46-02-002:
+      folder: /KleeGroup-Hosting/TCC/TOTAL
+      ipv4: 172.17.46.69
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-46-06-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.202
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-46-12-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.201
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-46-16-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.153
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-46-16-002:
+      folder: /KleeGroup-Hosting/TCC/TOTAL
+      ipv4: 172.17.46.24
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-46-17-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.200
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-46-90-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 192.168.142.208
+      os: CentOS 7 (64-bit)
+    VM-02-47-01-001:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.194
+      os: Other (32-bit)
+    VM-02-47-01-002:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.195
+      os: Other (32-bit)
+    VM-02-47-01-101:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.196
+      os: Other (32-bit)
+    VM-02-47-01-102:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.197
+      os: Other (32-bit)
+    VM-02-47-01-301:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.202
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-02-47-02-001:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.198
+      os: Other (32-bit)
+    VM-02-47-02-002:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.199
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-02-47-02-003:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.200
+      os: Other (32-bit)
+    VM-02-47-02-004:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.201
+      os: Other (32-bit)
+    VM-02-47-02-201:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.203
+      os: Other (32-bit)
+    VM-02-47-12-001:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.204
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-47-16-001:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.146
+      os: Other (32-bit)
+    VM-02-47-16-101:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.148
+      os: Other (32-bit)
+    VM-02-47-16-201:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.149
+      os: Other (32-bit)
+    VM-02-47-17-001:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.147
+      os: Other (32-bit)
+    VM-02-47-17-301:
+      folder: /KleeGroup-Hosting/TCC/CERTDC
+      ipv4: 172.17.47.150
+      os: Other (32-bit)
+    VM-02-50-01-001:
+      folder: /KleeGroup-Hosting/TCC/HAS
+      ipv4: 172.17.50.194
+      os: CentOS 7 (64-bit)
+    VM-02-50-02-001:
+      folder: /KleeGroup-Hosting/TCC/HAS
+      ipv4: 172.17.50.195
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-50-02-002:
+      folder: /KleeGroup-Hosting/DC4/HAS
+      ipv4: 172.17.50.68
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-50-06-001:
+      folder: /KleeGroup-Hosting/TCC/HAS
+      ipv4: 172.17.50.197
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-50-12-001:
+      folder: /KleeGroup-Hosting/TCC/HAS
+      ipv4: 172.17.50.198
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-50-16-001:
+      folder: /KleeGroup-Hosting/TCC/HAS
+      ipv4: 172.17.50.146
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-50-16-002:
+      folder: /KleeGroup-Hosting/DC4/HAS
+      ipv4: 172.17.50.19
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-50-17-001:
+      folder: /KleeGroup-Hosting/TCC/HAS
+      ipv4: 172.17.50.199
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-51-01-011:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.211
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-02-51-01-012:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.212
+      os: ''
+    VM-02-51-16-011:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.156
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-02-51-21-011:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.215
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-02-51-22-011:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.213
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-02-51-22-012:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.214
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-02-52-01-101:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.86
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-02-52-01-102:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.87
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-52-02-101:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.88
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-52-02-102:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.89
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-52-16-101:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.18
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-52-16-102:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.19
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-02-52-22-101:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.91
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-52-22-102:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.92
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-52-77-102:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.94
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-52-78-101:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.93
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-52-VADC-001:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.66
+      os: Ubuntu Linux (64-bit)
+    VM-02-52-VADC-002:
+      folder: /KleeGroup-Hosting/DC4/LeSaffre
+      ipv4: 10.102.2.67
+      os: Ubuntu Linux (64-bit)
+    VM-02-53-01-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/PreProduction
+      ipv4: 172.17.53.205
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-53-01-002:
+      folder: /KleeGroup-Hosting/DC4/ADEO/PreProduction
+      ipv4: 172.17.53.206
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-53-02-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/PreProduction
+      ipv4: 172.17.53.207
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-53-02-002:
+      folder: /KleeGroup-Hosting/DC4/ADEO/PreProduction
+      ipv4: 172.17.53.208
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-53-16-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/PreProduction
+      ipv4: 172.17.53.147
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-53-22-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/PreProduction
+      ipv4: 172.17.53.209
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-53-22-002:
+      folder: /KleeGroup-Hosting/DC4/ADEO/PreProduction
+      ipv4: 172.17.53.210
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-53-22-003:
+      folder: /KleeGroup-Hosting/DC4/ADEO/PreProduction
+      ipv4: 172.17.53.211
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-54-01-001:
+      folder: /KleeGroup-Hosting/TCC/TERREAL
+      ipv4: 172.17.54.72
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-54-16-001:
+      folder: /KleeGroup-Hosting/TCC/TERREAL
+      ipv4: 172.17.54.19
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-54-22-001:
+      folder: /KleeGroup-Hosting/TCC/TERREAL
+      ipv4: 172.17.54.73
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-56-01-001:
+      folder: /KleeGroup-Hosting/DC4/BNPP
+      ipv4: 172.17.56.194
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-56-02-001:
+      folder: /KleeGroup-Hosting/DC4/BNPP
+      ipv4: 172.17.56.195
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-56-06-001:
+      folder: /KleeGroup-Hosting/DC4/BNPP
+      ipv4: 172.17.56.196
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-56-12-001:
+      folder: /KleeGroup-Hosting/DC4/BNPP
+      ipv4: 172.17.56.197
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-56-16-001:
+      folder: /KleeGroup-Hosting/DC4/BNPP
+      ipv4: 172.17.56.146
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-56-17-001:
+      folder: /KleeGroup-Hosting/DC4/BNPP
+      ipv4: 172.17.56.198
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-02-57-01-001:
+      folder: /KleeGroup-Hosting/TCC/GTT
+      ipv4: 172.17.57.194
+      os: Other (32-bit)
+    VM-02-57-01-002:
+      folder: /KleeGroup-Hosting/TCC/GTT
+      ipv4: 172.17.57.195
+      os: Other (32-bit)
+    VM-02-57-01-101:
+      folder: /KleeGroup-Hosting/TCC/GTT
+      ipv4: 172.17.57.196
+      os: Other (32-bit)
+    VM-02-57-01-102:
+      folder: /KleeGroup-Hosting/TCC/GTT
+      ipv4: 172.17.57.197
+      os: Other (32-bit)
+    VM-02-57-16-001:
+      folder: /KleeGroup-Hosting/TCC/GTT
+      ipv4: 172.17.57.146
+      os: Other (32-bit)
+    VM-02-57-16-002:
+      folder: /KleeGroup-Hosting/TCC/GTT
+      ipv4: 172.17.57.147
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-02-59-01-101:
+      folder: /KleeGroup-Hosting/DC4/MOBIVIA/PreProd
+      ipv4: 172.17.114.206
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-59-01-102:
+      folder: /KleeGroup-Hosting/DC4/MOBIVIA/PreProd
+      ipv4: 172.17.114.207
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-59-16-101:
+      folder: /KleeGroup-Hosting/DC4/MOBIVIA/PreProd
+      ipv4: 172.17.114.147
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-59-22-101:
+      folder: /KleeGroup-Hosting/DC4/MOBIVIA/PreProd
+      ipv4: 172.17.114.208
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-02-59-22-102:
+      folder: /KleeGroup-Hosting/DC4/MOBIVIA/PreProd
+      ipv4: 172.17.114.209
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-59-78-102:
+      folder: /KleeGroup-Hosting/DC4/MOBIVIA/PreProd
+      ipv4: 172.17.114.205
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-62-01-101:
+      folder: /KleeGroup-Hosting/DC4/Arc
+      ipv4: 192.168.164.202
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-62-16-101:
+      folder: /KleeGroup-Hosting/DC4/Arc
+      ipv4: 192.168.164.153
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-62-22-101:
+      folder: /KleeGroup-Hosting/DC4/Arc
+      ipv4: 192.168.164.203
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-63-01-001:
+      folder: /KleeGroup-Hosting/TCC/Eurotoll
+      ipv4: 172.17.63.199
+      os: CentOS 4/5 (64-bit)
+    VM-02-63-01-002:
+      folder: /KleeGroup-Hosting/TCC/Eurotoll
+      ipv4: 172.17.63.200
+      os: CentOS 4/5 (64-bit)
+    VM-02-63-16-001:
+      folder: /KleeGroup-Hosting/TCC/Eurotoll
+      ipv4: 172.17.63.152
+      os: CentOS 4/5 (64-bit)
+    VM-02-85-01-101:
+      folder: /KleeGroup-Hosting/DC4/Valtech
+      ipv4: 192.168.185.206
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-85-01-102:
+      folder: /KleeGroup-Hosting/DC4/Valtech
+      ipv4: 192.168.185.207
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-85-16-101:
+      folder: /KleeGroup-Hosting/DC4/Valtech
+      ipv4: 192.168.185.147
+      os: Microsoft Windows Server 2019 (64-bit)
+    VM-02-85-22-101:
+      folder: /KleeGroup-Hosting/DC4/Valtech
+      ipv4: 192.168.185.208
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-85-22-102:
+      folder: /KleeGroup-Hosting/DC4/Valtech
+      ipv4: 192.168.185.209
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-87-01-101:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.76
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-87-01-102:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.77
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-87-16-101:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.21
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-87-16-102:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.22
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-02-99-01-008:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.127
+      os: CentOS 7 (64-bit)
+    VM-02-99-01-010-pilote:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 192.168.139.29
+      os: Other (32-bit)
+    VM-02-99-01-201:
+      folder: /KleeGroup-Hosting/DC4/KleePerformance
+      ipv4: 192.168.180.155
+      os: Other (32-bit)
+    VM-02-99-01-209:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 192.168.180.110
+      os: Other (32-bit)
+    VM-02-99-02-401:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 192.168.180.91
+      os: Other (32-bit)
+    VM-02-99-05-001:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.89.39
+      os: Other 2.6.x Linux (64-bit)
+    VM-02-99-33-001:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.142.211
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-02-99-33-002:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.142.212
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-02-99-90-001:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.142.10
+      os: CentOS 6 (64-bit)
+    VM-02-99-90-101:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.142.15
+      os: Other 3.x or later Linux (64-bit)
+    VM-02-99-90-302:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.142.206
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-KC-01-001:
+      folder: /KleeGroup-Hosting/DC4/KleeCommerce
+      ipv4: 192.168.117.163
+      os: ''
+    VM-02-KC-01-015:
+      folder: /KleeGroup-Hosting/DC4/KleeCommerce
+      ipv4: 192.168.117.176
+      os: CentOS 4/5 (64-bit)
+    VM-02-KC-01-100:
+      folder: /KleeGroup-Hosting/DC4/KleeCommerce
+      ipv4: 192.168.117.189
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-KC-01-112:
+      folder: /KleeGroup-Hosting/DC4/KleeCommerce
+      ipv4: 192.168.117.182
+      os: Other (32-bit)
+    VM-02-KC-02-100:
+      folder: /KleeGroup-Hosting/DC4/KleeCommerce
+      ipv4: 192.168.117.61
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-02-KC-04-001:
+      folder: /KleeGroup-Hosting/DC4/KleeCommerce
+      ipv4: 192.168.117.41
+      os: Microsoft Windows Server 2008 (32-bit)
+    VM-02-KC-04-002:
+      folder: /KleeGroup-Hosting/DC4/KleeCommerce
+      ipv4: 192.168.117.45
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-02-KC-04-101:
+      folder: /KleeGroup-Hosting/DC4/KleeCommerce
+      ipv4: 192.168.117.181
+      os: Microsoft Windows Server 2016 (64-bit)
+    VM-02-KC-16-001:
+      folder: /KleeGroup-Hosting/DC4/KleeCommerce
+      ipv4: 192.168.117.37
+      os: CentOS 4/5 (64-bit)
+    VM-02-KC-16-101:
+      folder: /KleeGroup-Hosting/DC4/KleeCommerce
+      ipv4: 192.168.117.46
+      os: Debian GNU/Linux 10 (64-bit)
+    VM-03-09-02-101:
+      folder: /KleeGroup-Hosting/TCC/FNMF
+      ipv4: 172.17.19.80
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-03-09-07-101:
+      folder: /KleeGroup-Hosting/TCC/FNMF
+      ipv4: 172.17.19.82
+      os: Debian GNU/Linux 11 (64-bit)
+    VM-03-09-16-101:
+      folder: /KleeGroup-Hosting/TCC/FNMF
+      ipv4: 172.17.19.26
+      os: Other (32-bit)
+    VM-03-13-01-006:
+      folder: /KleeGroup-Hosting/DC4/France Active
+      ipv4: 172.17.13.246
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-13-01-008:
+      folder: /KleeGroup-Hosting/DC4/France Active
+      ipv4: 172.17.13.248
+      os: Microsoft Windows Server 2003 Standard (32-bit)
+    VM-03-13-01-030:
+      folder: /KleeGroup-Hosting/DC4/France Active
+      ipv4: 172.17.13.251
+      os: Other (64-bit)
+    VM-03-13-16-007:
+      folder: /KleeGroup-Hosting/DC4/France Active
+      ipv4: 172.17.13.118
+      os: Microsoft Windows Server 2003 (32-bit)
+    VM-03-13-16-030:
+      folder: /KleeGroup-Hosting/DC4/France Active
+      ipv4: 172.17.13.124
+      os: Other (64-bit)
+    VM-03-17-01-001:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM121/Archive
+      ipv4: 172.17.113.210
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-03-17-01-101:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/Dev
+      ipv4: 172.17.113.83
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-03-17-16-001:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM121/Archive
+      ipv4: 172.17.113.152
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-03-17-16-101:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/Dev
+      ipv4: 172.17.113.20
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-03-17-20-101:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/Dev
+      ipv4: 172.17.113.85
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-03-17-21-001:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM121/Archive
+      ipv4: 172.17.113.214
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-03-17-22-001:
+      folder: /KleeGroup-Hosting/DC4/FPLP/EPM121/Archive
+      ipv4: 172.17.113.212
+      os: ''
+    VM-03-17-22-101:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/Dev
+      ipv4: 172.17.113.84
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-03-17-78-101:
+      folder: /KleeGroup-Hosting/TCC/FPLP/EPM124/Dev
+      ipv4: 172.17.113.86
+      os: Microsoft Windows Server 2012 (64-bit)
+    VM-03-29-01-001:
+      folder: /KleeGroup-Hosting/DC4/ALLIANZ/Recette_Client
+      ipv4: 172.17.29.70
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-29-02-001:
+      folder: /KleeGroup-Hosting/DC4/ALLIANZ/Recette_Client
+      ipv4: 172.17.29.71
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-29-12-001:
+      folder: /KleeGroup-Hosting/DC4/ALLIANZ/Recette_Client
+      ipv4: 172.17.29.73
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-29-16-001:
+      folder: /KleeGroup-Hosting/DC4/ALLIANZ/Recette_Client
+      ipv4: 172.17.29.19
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-29-17-001:
+      folder: /KleeGroup-Hosting/DC4/ALLIANZ/Recette_Client
+      ipv4: 172.17.29.72
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-46-01-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.212
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-46-01-002:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.213
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-46-02-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.210
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-46-02-002:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.211
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-46-06-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.216
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-46-12-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.214
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-46-16-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.155
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-46-16-002:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.156
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-46-17-001:
+      folder: /KleeGroup-Hosting/DC4/TOTAL
+      ipv4: 172.17.46.215
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    VM-03-51-01-011:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.195
+      os: ''
+    VM-03-51-16-011:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.146
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-03-51-21-011:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.197
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-03-51-22-011:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.196
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-03-51-78-101:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.200
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-03-52-01-101:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.209
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-03-52-02-101:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.210
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-03-52-16-101:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.156
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-03-52-16-102:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.157
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-03-52-22-101:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.212
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-03-52-78-101:
+      folder: /KleeGroup-Hosting/TCC/Lesaffre
+      ipv4: 10.102.2.213
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    VM-03-53-01-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Dev
+      ipv4: 172.17.53.214
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-03-53-02-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Dev
+      ipv4: 172.17.53.215
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-03-53-16-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Dev
+      ipv4: 172.17.53.148
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-03-53-22-001:
+      folder: /KleeGroup-Hosting/DC4/ADEO/Dev
+      ipv4: 172.17.53.216
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-03-87-01-101:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.78
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-03-87-16-101:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.23
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-03-87-16-102:
+      folder: /KleeGroup-Hosting/TCC/Kiabi
+      ipv4: 192.168.87.24
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-03-99-01-002:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.127.162
+      os: CentOS 6 (64-bit)
+    VM-03-99-01-003:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.127.167
+      os: Red Hat Enterprise Linux 6 (64-bit)
+    VM-05-51-03-001:
+      folder: /KleeGroup-Hosting/DC4/Malteurop
+      ipv4: 172.16.108.216
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-05-51-EPM11124:
+      folder: /KleeGroup-Hosting/TCC
+      ipv4: 172.16.107.152
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-05-51-EPM112:
+      folder: /KleeGroup-Hosting/TCC
+      ipv4: 172.16.107.153
+      os: Microsoft Windows Server 2022 (64-bit)
+    VM-pacsen:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: pwd?
+      os: Microsoft Windows Server 2008 R2 (64-bit)
+    VM-pacsen-oracle:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.126.80
+      os: Red Hat Enterprise Linux 5 (64-bit)
+    alec.kleegroup.com:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: 192.168.139.11
+      os: CentOS 4/5/6 (64-bit)
+    archimed-rct-ext:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.41
+      os: Other (32-bit)
+    atlas-ext:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.158
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    cbw-probe-data4-01:
+      folder: /KleeGroup-Hosting/DC4/Management
+      ipv4: 192.168.89.9
+      os: Other (32-bit)
+    cbw-probe-equinix-01:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: 192.168.89.137
+      os: Other (32-bit)
+    ceres-api-recext:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.12
+      os: Other 4.x or later Linux (64-bit)
+    ceres-es-recext2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.98
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    ceres-recext2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.15
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    cig-hygie-rec-externe-1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.230
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    cig-hygie-rec-externe-2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.231
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    cnaps-app:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.197
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    cnaps-data:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.196
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    cnaps-sso:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.198
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    cnc-sofi-backup:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.20
+      os: Oracle Solaris 10 (64-bit)
+    coach-climat:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.36
+      os: Other (32-bit)
+    coach-climat-pers:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.37
+      os: Other (32-bit)
+    confluence-santefr:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.23
+      os: Debian GNU/Linux 9 (64-bit)
+    cp2i-numero-unique-rct:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.18
+      os: CentOS 7 (64-bit)
+    cp2i-nuu-pgp-rct:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.16
+      os: CentOS 7 (64-bit)
+    dapelastic:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.186
+      os: CentOS 4/5 (64-bit)
+    dapsso:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.13
+      os: CentOS 4/5/6/7 (64-bit)
+    dc4-kh-smartproxy-01:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 192.168.89.79
+      os: CentOS 4/5 (64-bit)
+    demo-dr2-app:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.48
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    demo-dr2-bdd:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.50
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    demo-dr2-es:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.49
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    dev2022-elk:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.78
+      os: CentOS 7 (64-bit)
+    dgac-annuaire:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.163
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    dgac-dsac:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.6
+      os: SUSE Linux Enterprise 12 (64-bit)
+    dgac-mdap:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.105
+      os: SUSE Linux Enterprise 12 (64-bit)
+    dgac-qualite:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: ''
+      os: SUSE Linux Enterprise 12 (64-bit)
+    dgac-qualite02:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.17
+      os: Ubuntu Linux (64-bit)
+    dgac-taxes:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.152
+      os: SUSE Linux Enterprise 12 (64-bit)
+    dgpr-gun-apache:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.174
+      os: Debian GNU/Linux 9 (64-bit)
+    dgpr-gun-appli-ext-env-a:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.172
+      os: Other (32-bit)
+    dgpr-gun-appli-ext-env-b:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.188
+      os: Debian GNU/Linux 10 (64-bit)
+    dgpr-gun-appli-ext-env-c:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.89
+      os: Debian GNU/Linux 9 (64-bit)
+    dgpr-gun-appli-ext-env-d:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.123
+      os: Other (32-bit)
+    dgpr-gun-appli-ext-env-f:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.86
+      os: Debian GNU/Linux 9 (64-bit)
+    dgpr-gun-bdd-ext-env-a:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.173
+      os: Debian GNU/Linux 9 (64-bit)
+    dgpr-gun-bdd-ext-env-b:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.101
+      os: Other (32-bit)
+    dgpr-gun-bdd-ext-env-c:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.133
+      os: Other (32-bit)
+    dgpr-gun-bdd-ext-env-d:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.134
+      os: Other (32-bit)
+    dgpr-gun-bdd-ext-env-f:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.87
+      os: Debian GNU/Linux 11 (64-bit)
+    dgpr-gun-elastic-ext-env-d:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.92
+      os: Debian GNU/Linux 11 (64-bit)
+    dgpr-gun-form-maenv:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.195
+      os: Other (32-bit)
+    dgpr-gun-nfs-wso2-ext:
+      folder: /KleeGroup-Hosting/DC4/Rct01/GUN
+      ipv4: 192.168.127.88
+      os: Debian GNU/Linux 9 (64-bit)
+    dgt-app:
+      folder: /KleeGroup-Hosting/DC4/DGT
+      ipv4: 172.19.180.2
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    dgt-bdd:
+      folder: /KleeGroup-Hosting/DC4/DGT
+      ipv4: 172.19.180.3
+      os: CentOS 6 (64-bit)
+    dgt-es:
+      folder: /KleeGroup-Hosting/DC4/DGT
+      ipv4: 172.19.180.4
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    dgt-zonage:
+      folder: /KleeGroup-Hosting/DC4/DGT
+      ipv4: 172.19.180.5
+      os: Microsoft Windows Server 2012 (64-bit)
+    dgt-zonage-bdd:
+      folder: /KleeGroup-Hosting/DC4/DGT
+      ipv4: 172.19.180.6
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    dhup-cotation-rct:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.226
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    dondesang-RCT:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.209
+      os: Other (32-bit)
+    formapro-app-ext:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.175
+      os: Debian GNU/Linux 10 (64-bit)
+    formapro-bdd-ext:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.176
+      os: Debian GNU/Linux 10 (64-bit)
+    formapro-es-ext:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.177
+      os: Debian GNU/Linux 10 (64-bit)
+    guichet-unique-runners:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.20
+      os: Other (32-bit)
+    gun-delivery-tracker-rct:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.7
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    hatvp-test-atlas-back:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.235
+      os: Other (32-bit)
+    hatvp-test-atlas-middle:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.232
+      os: Other (32-bit)
+    jira-minint:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.182
+      os: Debian GNU/Linux 10 (64-bit)
+    jira-santefr:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: ''
+      os: Ubuntu Linux (64-bit)
+    justice-isis-app2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: ''
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    justice-isis-sso:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.137
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    kh-gitlab:
+      folder: /KleeGroup-Hosting/TCC/Kleegroup
+      ipv4: 192.168.43.210
+      os: CentOS 7 (64-bit)
+    kh05:
+      folder: /KleeGroup-Hosting/TCC/Mutualise
+      ipv4: ''
+      os: CentOS 4/5 (64-bit)
+    kh06:
+      folder: /KleeGroup-Hosting/TCC/Mutualise
+      ipv4: 192.168.43.199
+      os: CentOS 7 (64-bit)
+    kleedigital-rct01:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.149
+      os: CentOS 6 (64-bit)
+    luna-ext:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.159
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    mars-demo:
+      folder: /KleeGroup-Hosting/DC4/Mars
+      ipv4: 192.168.127.59
+      os: CentOS 7 (64-bit)
+    minerve:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.82
+      os: Debian GNU/Linux 10 (64-bit)
+    mysql003:
+      folder: /KleeGroup-Hosting/TCC/Mutualise
+      ipv4: ''
+      os: CentOS 4/5 (64-bit)
+    ns2:
+      folder: /KleeGroup-Hosting/TCC/Mutualise
+      ipv4: 192.168.43.237
+      os: CentOS 4/5/6 (32-bit)
+    oaw-recette:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.34
+      os: Ubuntu Linux (64-bit)
+    oreon-002-BOU:
+      folder: /KleeGroup-Hosting/DC4/Mutualise
+      ipv4: ''
+      os: Other Linux (32-bit)
+    oreon-002-RB:
+      folder: /KleeGroup-Hosting/TCC/Management
+      ipv4: ''
+      os: Other Linux (32-bit)
+    periscope-app:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.45
+      os: Other (32-bit)
+    periscope-es:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.46
+      os: Debian GNU/Linux 11 (64-bit)
+    poft-serv:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.22
+      os: Other (32-bit)
+    rct-gael-app:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.112
+      os: Debian GNU/Linux 10 (64-bit)
+    rct-gael-bdd:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.113
+      os: Microsoft Windows Server 2019 (64-bit)
+    rdvpref-demo:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.178
+      os: Other (32-bit)
+    rec-extramut:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.35
+      os: Other (32-bit)
+    sandbox-devops:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.132
+      os: Debian GNU/Linux 10 (64-bit)
+    si-alternance.rct01:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.40
+      os: CentOS 4/5/6 (64-bit)
+    si-jeunesse-back:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.205
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    si-jeunesse-bdd:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.207
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    si-jeunesse-front:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.223
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    sia-refonte-api-rec-ext:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.27
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    sia-refonte-app-rec-ext:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.26
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    sia-refonte-batch-asp-prod:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.249
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    sia-refonte-bdd-rec-ext:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 172.19.180.28
+      os: CentOS 6 (64-bit)
+    sie2-tableau2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: ''
+      os: ''
+    sigdca-app:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.67
+      os: CentOS 4/5 (64-bit)
+    sigdca-bdd:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.68
+      os: CentOS 4/5 (64-bit)
+    sigdca-ext-app2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.2
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    sigdca-ext-app3:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.3
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    sigdca-ext-app4:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.109
+      os: Debian GNU/Linux 11 (64-bit)
+    sigdca-ext-bdd2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.4
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    sigdca-ext-bdd3:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.5
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    sigdca-ext-bdd4:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.110
+      os: Other (32-bit)
+    sondages.kleegroup:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.57
+      os: CentOS 4/5/6 (32-bit)
+    spark-app:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.19.180.70
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-bdd:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.19.180.75
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-demo-front:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.19.180.69
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-eldorado-paramapp1:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.19.180.66
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-eldorado-paramapp2:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.19.180.67
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-eldorado-parambdd:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.19.180.68
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-hcl-e-param:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.192
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-hcl-e-parambdd:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.193
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-liege-param:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.153
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-liege-parambdd:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.154
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-maintenance-recette:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.135
+      os: CentOS 6 (64-bit)
+    spark-nfs:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.19.180.74
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-rmq:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.19.180.71
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-search:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.19.180.72
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-store:
+      folder: /KleeGroup-Hosting/DC4/Spark
+      ipv4: 172.19.180.73
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-total-app-rct:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.141
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    spark-total-bdd:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.142
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    squashtest:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.168
+      os: CentOS 4/5/6/7 (64-bit)
+    suit-apache:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.62
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    suit-app-1:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.63
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    suit-app-2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.64
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    suit-batch:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.74
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    suit-be:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: DOWN
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    suit-ldap:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.69
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    suit-matomo:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.60
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    suit-nas:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.76
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    suit-office:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.72
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    suit-persist:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.65
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    suit-search:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.66
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    test-resto:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.90
+      os: Red Hat Enterprise Linux 7 (64-bit)
+    vm-pacsen-2:
+      folder: /KleeGroup-Hosting/DC4/Rct01
+      ipv4: 192.168.127.14
+      os: Microsoft Windows Server 2016 or later (64-bit)
+    voip-01.kleegroup.com:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 192.168.139.55
+      os: CentOS 4/5/6 (64-bit)
+    voip-02.kleegroup.com:
+      folder: /KleeGroup-Hosting/DC4/Kleegroup
+      ipv4: 192.168.139.56
+      os: CentOS 4/5/6 (64-bit)

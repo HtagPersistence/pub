@@ -1,0 +1,3950 @@
+all:
+hosts:
+  - Agadir-app
+  - Agadir-BDD
+  - Agadir-search
+  - alec.kleegroup.com
+  - archimed-rct-ext
+  - atlas-ext
+  - BAF-EXT-BDD
+  - BAF-EXT-SEARCH
+  - BAF-EXT-SSO1
+  - BAF-EXT-SSO2
+  - BAF-EXT-WEB-APP
+  - cbw-probe-data4-01
+  - cbw-probe-equinix-01
+  - CDC-ANALYTICS-APP
+  - CDC-ANALYTICS-BDD
+  - CDC-APP1
+  - CDC-APP2
+  - CDC-APPS
+  - CDC-BDD
+  - CDC-MONITORING-APP
+  - CDC-MQ
+  - CDC-SEARCH
+  - CDC-WEB1
+  - ceres-api-recext
+  - ceres-es-recext2
+  - CERES-EXT
+  - ceres-recext2
+  - Chatbot-Factory
+  - cig-hygie-rec-externe-1
+  - cig-hygie-rec-externe-2
+  - CLIENT-VPN1
+  - CLIENT-VPN2
+  - cnaps-app
+  - cnaps-data
+  - cnaps-sso
+  - cnc-sofi-backup
+  - coach-climat
+  - coach-climat-pers
+  - confluence-santefr
+  - CP2I_Postgres96_utf8-rct
+  - cp2i-numero-unique-rct
+  - cp2i-nuu-pgp-rct
+  - CV-01-00-16-001
+  - CV-01-01-01-001
+  - CV-01-01-01-002
+  - CV-01-01-16-001
+  - CV-01-02-01-001
+  - CV-01-02-01-002
+  - CV-01-02-16-001
+  - CV-01-03-01-001
+  - CV-01-03-01-002
+  - CV-01-03-01-003
+  - CV-01-03-01-101
+  - CV-01-03-16-001
+  - CV-01-04-01-001
+  - CV-01-04-01-002
+  - CV-01-04-16-001
+  - CV-01-05-01-003
+  - CV-01-05-01-004
+  - CV-01-05-01-005
+  - CV-01-05-01-006
+  - CV-01-05-16-001
+  - CV-01-06-01-001
+  - CV-01-06-01-003
+  - CV-01-06-16-001
+  - CV-01-07-01-001
+  - CV-01-07-01-002
+  - CV-01-07-16-001
+  - CV-01-08-01-001
+  - CV-01-08-01-002
+  - CV-01-08-01-003
+  - CV-01-08-16-001
+  - CV-01-09-01-001
+  - CV-01-09-01-002
+  - CV-01-09-16-001
+  - CV-01-10-01-001
+  - CV-01-10-01-002
+  - CV-01-10-16-001
+  - CV-01-11-01-001
+  - CV-01-11-01-002
+  - CV-01-11-16-001
+  - CV-01-13-01-001
+  - CV-01-13-01-002
+  - CV-01-13-16-001
+  - CV-01-14-01-001
+  - CV-01-14-01-002
+  - CV-01-14-16-001
+  - CV-01-15-01-001
+  - CV-01-15-01-002
+  - CV-01-15-16-001
+  - CV-01-16-01-001
+  - CV-01-16-01-002
+  - CV-01-16-16-001
+  - CV-01-16-16-002
+  - CV-01-17-01-001
+  - CV-01-17-01-002
+  - CV-01-17-16-001
+  - CV-01-19-01-001
+  - CV-01-19-01-002
+  - CV-01-19-16-001
+  - CV-01-20-01-001
+  - CV-01-20-01-002
+  - CV-01-20-16-001
+  - CV-01-21-01-001
+  - CV-01-21-01-002
+  - CV-01-21-01-101
+  - CV-01-21-01-102
+  - CV-01-21-16-001
+  - CV-01-22-01-001
+  - CV-01-22-01-002
+  - CV-01-22-16-001
+  - CV-01-23-01-001
+  - CV-01-23-01-002
+  - CV-01-23-16-001
+  - CV-01-24-01-002
+  - CV-01-24-01-003
+  - CV-01-24-16-001
+  - CV-01-25-01-001
+  - CV-01-25-01-002
+  - CV-01-25-16-001
+  - CV-01-26-01-001
+  - CV-01-26-01-002
+  - CV-01-26-16-001
+  - CV-01-27-01-001
+  - CV-01-27-01-002
+  - CV-01-27-16-001
+  - CV-01-28-01-001
+  - CV-01-28-01-002
+  - CV-01-28-16-001
+  - CV-01-29-01-001
+  - CV-01-29-01-002
+  - CV-01-29-16-001
+  - CV-01-30-01-001
+  - CV-01-30-01-002
+  - CV-01-30-16-001
+  - CV-01-31-01-001
+  - CV-01-31-01-002
+  - CV-01-31-16-001
+  - CV-01-32-01-001
+  - CV-01-32-01-002
+  - CV-01-32-16-001
+  - CV-01-33-01-001
+  - CV-01-33-01-002
+  - CV-01-33-16-001
+  - CV-01-34-01-001
+  - CV-01-34-01-002
+  - CV-01-34-16-001
+  - CV-01-35-01-001
+  - CV-01-35-01-002
+  - CV-01-35-16-001
+  - CV-01-36-01-001
+  - CV-01-36-01-002
+  - CV-01-36-16-001
+  - CV-01-37-01-001
+  - CV-01-37-16-001
+  - CV-01-38-01-001
+  - CV-01-38-01-002
+  - CV-01-38-16-001
+  - CV-01-39-01-001
+  - CV-01-39-01-002
+  - CV-01-39-16-001
+  - CV-01-40-01-001
+  - CV-01-40-01-002
+  - CV-01-40-16-001
+  - CV-01-41-01-001
+  - CV-01-41-01-002
+  - CV-01-41-16-001
+  - CV-01-42-01-001
+  - CV-01-42-01-002
+  - CV-01-42-16-001
+  - CV-01-43-01-001
+  - CV-01-43-01-002
+  - CV-01-44-01-001
+  - CV-01-44-01-002
+  - CV-03-03-01-001
+  - CV-03-03-01-002
+  - CV-03-10-16-001
+  - CV-03-15-01-001
+  - CV-05-00-01-001
+  - CV-05-00-01-101
+  - CV-app-rct
+  - CV-BDD-DEMO
+  - CV-demo-recette
+  - CV-KH03-001
+  - CV-KH03-002
+  - dapelastic
+  - dapsso
+  - dc4-kh-smartproxy-01
+  - DECA-2MAINS-API1-REC-EXT
+  - DECA-2MAINS-API2-REC-EXT
+  - DECA-2MAINS-BDD-REC-EXT
+  - DECA-2MAINS-BO1-REC-EXT
+  - DECA-2MAINS-BO2-REC-EXT
+  - DECA-2MAINS-ES-REC-EXT
+  - DECA-2MAINS-OPS-REC-EXT
+  - demo-dr2-app
+  - demo-dr2-bdd
+  - demo-dr2-es
+  - dev2022-elk
+  - dgac-annuaire
+  - DGAC-DEMO-RCT
+  - dgac-dsac
+  - dgac-mdap
+  - dgac-qualite
+  - dgac-qualite02
+  - dgac-taxes
+  - dgpr-gun-apache
+  - dgpr-gun-appli-ext-env-a
+  - dgpr-gun-appli-ext-env-b
+  - dgpr-gun-appli-ext-env-c
+  - dgpr-gun-appli-ext-env-d
+  - dgpr-gun-appli-ext-env-f
+  - dgpr-gun-bdd-ext-env-a
+  - dgpr-gun-bdd-ext-env-b
+  - dgpr-gun-bdd-ext-env-c
+  - dgpr-gun-bdd-ext-env-d
+  - dgpr-gun-bdd-ext-env-f
+  - dgpr-gun-elastic-ext-env-d
+  - dgpr-gun-form-maenv
+  - dgpr-gun-nfs-wso2-ext
+  - dgt-app
+  - dgt-bdd
+  - dgt-es
+  - dgt-zonage
+  - dgt-zonage-bdd
+  - dhup-cotation-rct
+  - dondesang-RCT
+  - EFP_ADM
+  - EFP_APP1
+  - EFP_APP2
+  - EFP_BDD1
+  - EFP_BDD2
+  - EFP_CAS1
+  - EFP_CAS2
+  - EFP_efpconnect-recette_APP
+  - EFP_efpconnect-recette_BDD
+  - EFP_efpconnect-recette_CAS
+  - EFP_efpconnect-recette_ES
+  - EFP_ES
+  - EFP_LDAP1
+  - EFP_LDAP2
+  - EFP_WEB
+  - Extranet
+  - formapro-app-ext
+  - formapro-bdd-ext
+  - formapro-es-ext
+  - guichet-unique-runners
+  - gun-delivery-tracker-rct
+  - hatvp-test-atlas-back
+  - hatvp-test-atlas-middle
+  - HATVP-TEST-BACK-1
+  - HATVP-TEST-MIDDLE-1
+  - HATVP-TEST-MIDDLE-2
+  - HATVP-TEST-MIDDLE-3
+  - IGNPRO
+  - Isis-BDD
+  - Isis-Front
+  - IT-BO-6LOG-001
+  - IT-BO-DNS-001
+  - IT-BO-RDS-001
+  - IT-BO-WEBSTATS-01
+  - IT-DT4-RUD-WEB-01
+  - IT-DT4-Tools-001
+  - IT-GL-ELS-01
+  - IT-GL-ELS-02
+  - IT-GL-ELS-03
+  - IT-GL-WEB-01
+  - IT-GL-WEB-02
+  - IT-RB-6LOG-001
+  - IT-RB-CAM-01
+  - IT-RB-DNS-001
+  - IT-RB-OBS-001
+  - IT-RB-RDS-001
+  - IT-RB-SPLA-KMS
+  - IT-RB-TOOLS-01
+  - IT-TCG-NXL-01
+  - IT-TCG-NXL-01
+  - jira-minint
+  - jira-santefr
+  - justice-isis-app2
+  - justice-isis-sso
+  - kh05
+  - kh06
+  - kh-gitlab
+  - KH-STATION
+  - KLEE-APP
+  - kleedigital-rct01
+  - luna-ext
+  - mars-demo
+  - minerve
+  - Mx3
+  - Mx4
+  - Mysql002
+  - mysql003
+  - Mysql005
+  - NS1.KLEEGROUP.COM
+  - ns2
+  - oaw-recette
+  - oreon-002-BOU
+  - oreon-002-RB
+  - periscope-app
+  - periscope-es
+  - poft-serv
+  - rct-gael-app
+  - rct-gael-bdd
+  - Rct-Reacteur-APP
+  - Rct-Reacteur-BDD
+  - Rct-Reacteur-SEARCH
+  - rdvpref-demo
+  - REACTEUR-RCT-ADMIN
+  - REACTEUR-RCT-BDD
+  - REACTEUR-RCT-CONSULT
+  - REACTEUR-RCT-ES1
+  - REACTEUR-RCT-ES2
+  - REACTEUR-RCT-ES3
+  - REACTEUR-RCT-EXT-WEB
+  - REACTEUR-RCT-GRA-MGR
+  - REACTEUR-RCT-GRA-PUB
+  - REACTEUR-RCT-GRA-STO
+  - REACTEUR-RCT-MQ
+  - rec-extramut
+  - sandbox-devops
+  - si-alternance.rct01
+  - sia-refonte-api-rec-ext
+  - sia-refonte-app-rec-ext
+  - sia-refonte-batch-asp-prod
+  - sia-refonte-bdd-rec-ext
+  - SIE2-BDD1-EXT
+  - SIE2-BDD2-EXT
+  - SIE2-JIRA-EXT
+  - sie2-tableau2
+  - SIE2-TOMCAT1-EXT
+  - SIE2-TOMCAT2-EXT
+  - sigdca-app
+  - sigdca-bdd
+  - sigdca-ext-app2
+  - sigdca-ext-app3
+  - sigdca-ext-app4
+  - sigdca-ext-bdd2
+  - sigdca-ext-bdd3
+  - sigdca-ext-bdd4
+  - SIGDCA-GEOSERVER-BDD
+  - SIGDCA-PREPROD
+  - si-jeunesse-back
+  - si-jeunesse-bdd
+  - si-jeunesse-front
+  - sondages.kleegroup
+  - spark-app
+  - spark-bdd
+  - spark-demo-front
+  - spark-eldorado-paramapp1
+  - spark-eldorado-paramapp2
+  - spark-eldorado-parambdd
+  - spark-hcl-e-param
+  - spark-hcl-e-parambdd
+  - spark-liege-param
+  - spark-liege-parambdd
+  - spark-maintenance-recette
+  - spark-nfs
+  - spark-rmq
+  - spark-search
+  - spark-store
+  - spark-total-app-rct
+  - spark-total-bdd
+  - SparkWeb
+  - squashtest
+  - suit-apache
+  - suit-app-1
+  - suit-app-2
+  - suit-batch
+  - suit-be
+  - suit-ldap
+  - suit-matomo
+  - suit-nas
+  - suit-office
+  - suit-persist
+  - suit-search
+  - Test-Hot-Snap
+  - test-resto
+  - VM-01-00-02-001
+  - VM-01-00-16-001
+  - VM-01-05-01-601
+  - VM-01-05-01-602
+  - VM-01-05-01-701
+  - VM-01-05-16-601
+  - VM-01-05-16-701
+  - VM-01-08-02-101
+  - VM-01-08-02-102
+  - VM-01-08-16-101
+  - VM-01-09-02-101
+  - VM-01-09-02-102
+  - VM-01-09-07-101
+  - VM-01-09-16-101
+  - VM-01-09-77-001
+  - VM-01-13-01-006
+  - VM-01-13-01-007
+  - VM-01-13-01-008
+  - VM-01-13-01-014
+  - VM-01-13-01-030
+  - VM-01-13-16-007
+  - VM-01-13-16-008
+  - VM-01-13-16-030
+  - VM-01-13-77-101
+  - VM-01-13-77-102
+  - VM-01-13-77-103
+  - VM-01-15-01-001
+  - VM-01-17-01-101
+  - VM-01-17-01-102
+  - VM-01-17-16-101
+  - VM-01-17-20-101
+  - VM-01-17-22-101
+  - VM-01-17-22-102
+  - VM-01-17-77-003
+  - VM-01-17-77-101
+  - VM-01-17-77-102
+  - VM-01-17-78-101
+  - VM-01-22-01-001
+  - VM-01-22-01-002
+  - VM-01-22-01-003
+  - VM-01-22-01-004
+  - VM-01-22-01-005
+  - VM-01-22-01-006
+  - VM-01-22-01-010
+  - VM-01-22-01-101
+  - VM-01-22-01-102
+  - VM-01-22-02-001
+  - VM-01-22-02-003
+  - VM-01-22-16-001
+  - VM-01-22-16-002
+  - VM-01-22-77-001
+  - VM-01-22-77-002
+  - VM-01-22-ADC-001
+  - VM-01-22-DIM-001
+  - VM-01-22-MIG-001
+  - VM-01-22-PULSE-001
+  - VM-01-22-PULSE-001-TEST-SEC
+  - VM-01-22-RDS-001
+  - VM-01-22-RDS-002
+  - VM-01-22-WSUS-001
+  - VM-01-24-01-001
+  - VM-01-24-01-002
+  - VM-01-24-01-003
+  - VM-01-24-01-004
+  - VM-01-24-01-101
+  - VM-01-24-02-001
+  - VM-01-24-10-001
+  - VM-01-24-16-001
+  - VM-01-24-16-002
+  - VM-01-24-16-101
+  - VM-01-24-17-001
+  - VM-01-24-61-001
+  - VM-01-24-87-001
+  - VM-01-29-01-001
+  - VM-01-29-02-001
+  - VM-01-29-02-002
+  - VM-01-29-12-001
+  - VM-01-29-16-001
+  - VM-01-29-17-001
+  - VM-01-30-01-001
+  - VM-01-30-16-004
+  - VM-01-30-16-005
+  - VM-01-30-77-001
+  - VM-01-30-77-002
+  - VM-01-30-78-001
+  - VM-01-30-78-100
+  - VM-01-30-78-101
+  - VM-01-30-80-001
+  - VM-01-30-99-001
+  - VM-01-31-01-001
+  - VM-01-31-02-001
+  - VM-01-31-16-001
+  - VM-01-31-17-001
+  - VM-01-33-01-201
+  - VM-01-33-01-202
+  - VM-01-33-16-201
+  - VM-01-33-22-201
+  - VM-01-33-22-202
+  - VM-01-33-77-201
+  - VM-01-33-77-202
+  - VM-01-33-78-201
+  - VM-01-33-VADC-001
+  - VM-01-33-VADC-002
+  - VM-01-36-01-001
+  - VM-01-36-02-001
+  - VM-01-36-02-002
+  - VM-01-36-16-001
+  - VM-01-36-16-002
+  - VM-01-36-17-001
+  - VM-01-37-01-001
+  - VM-01-37-01-002
+  - VM-01-37-01-101
+  - VM-01-37-16-001
+  - VM-01-37-17-001
+  - VM-01-37-18-001
+  - VM-01-41-01-101
+  - VM-01-41-02-101
+  - VM-01-41-02-102
+  - VM-01-41-16-101
+  - VM-01-41-16-102
+  - VM-01-41-17-101
+  - VM-01-42-01-001
+  - VM-01-42-02-001
+  - VM-01-42-02-002
+  - VM-01-42-02-003
+  - VM-01-42-12-001
+  - VM-01-42-16-001
+  - VM-01-42-16-002
+  - VM-01-42-17-001
+  - VM-01-45-01-001
+  - VM-01-45-16-001
+  - VM-01-45-17-001
+  - VM-01-46-01-001
+  - VM-01-46-01-002
+  - VM-01-46-02-001
+  - VM-01-46-02-002
+  - VM-01-46-06-001
+  - VM-01-46-12-001
+  - VM-01-46-16-001
+  - VM-01-46-16-002
+  - VM-01-46-17-001
+  - VM-01-46-90-001
+  - VM-01-46-90-001
+  - VM-01-47-01-001
+  - VM-01-47-01-002
+  - VM-01-47-01-101
+  - VM-01-47-01-102
+  - VM-01-47-01-301
+  - VM-01-47-02-001
+  - VM-01-47-02-002
+  - VM-01-47-02-003
+  - VM-01-47-02-004
+  - VM-01-47-02-201
+  - VM-01-47-12-001
+  - VM-01-47-16-001
+  - VM-01-47-16-101
+  - VM-01-47-16-201
+  - VM-01-47-17-001
+  - VM-01-47-17-301
+  - VM-01-50-01-001
+  - VM-01-50-02-001
+  - VM-01-50-02-002
+  - VM-01-50-06-001
+  - VM-01-50-12-001
+  - VM-01-50-16-001
+  - VM-01-50-16-002
+  - VM-01-50-17-001
+  - VM-01-51-01-011
+  - VM-01-51-01-012
+  - VM-01-51-16-011
+  - VM-01-51-21-011
+  - VM-01-51-22-011
+  - VM-01-51-22-012
+  - VM-01-51-77-001
+  - VM-01-51-77-002
+  - VM-01-51-77-003
+  - VM-01-51-78-011
+  - VM-01-52-01-101
+  - VM-01-52-01-102
+  - VM-01-52-02-101
+  - VM-01-52-02-102
+  - VM-01-52-16-101
+  - VM-01-52-16-102
+  - VM-01-52-22-101
+  - VM-01-52-22-102
+  - VM-01-52-77-101
+  - VM-01-52-78-101
+  - VM-01-53-01-001
+  - VM-01-53-01-002
+  - VM-01-53-02-001
+  - VM-01-53-02-002
+  - VM-01-53-16-001
+  - VM-01-53-22-001
+  - VM-01-53-22-002
+  - VM-01-53-22-003
+  - VM-01-53-77-001
+  - VM-01-53-77-002
+  - VM-01-54-01-001
+  - VM-01-54-16-001
+  - VM-01-54-22-001
+  - VM-01-54-77-001
+  - VM-01-56-01-001
+  - VM-01-56-02-001
+  - VM-01-56-06-001
+  - VM-01-56-12-001
+  - VM-01-56-16-001
+  - VM-01-56-17-001
+  - VM-01-57-01-001
+  - VM-01-57-01-002
+  - VM-01-57-01-101
+  - VM-01-57-01-102
+  - VM-01-57-16-001
+  - VM-01-57-16-002
+  - VM-01-59-01-101
+  - VM-01-59-01-102
+  - VM-01-59-16-101
+  - VM-01-59-22-101
+  - VM-01-59-22-102
+  - VM-01-59-77-101
+  - VM-01-59-77-102
+  - VM-01-59-78-101
+  - VM-01-60-01-001
+  - VM-01-62-01-101
+  - VM-01-62-01-102
+  - VM-01-62-16-101
+  - VM-01-62-22-101
+  - VM-01-62-22-102
+  - VM-01-62-77-101
+  - VM-01-62-77-102
+  - VM-01-63-01-001
+  - VM-01-63-01-002
+  - VM-01-63-01-003
+  - VM-01-63-01-101
+  - VM-01-63-16-001
+  - VM-01-63-16-002
+  - VM-01-63-16-101
+  - VM-01-63-16-102
+  - VM-01-85-01-101
+  - VM-01-85-01-102
+  - VM-01-85-16-101
+  - VM-01-85-22-101
+  - VM-01-85-22-102
+  - VM-01-85-77-101
+  - VM-01-85-77-102
+  - VM-01-87-01-101
+  - VM-01-87-01-102
+  - VM-01-87-16-101
+  - VM-01-87-16-102
+  - VM-01-87-77-101
+  - VM-01-87-77-102
+  - VM-01-87-78-101
+  - VM-01-97-01-001
+  - VM-01-97-17-001
+  - VM-01-97-17-002
+  - VM-01-97-17-003
+  - VM-01-98-01-001
+  - VM-01-98-01-002
+  - VM-01-98-16-001
+  - VM-01-99-01-004
+  - VM-01-99-01-005
+  - VM-01-99-01-006
+  - VM-01-99-01-007
+  - VM-01-99-01-008
+  - VM-01-99-01-009
+  - VM-01-99-01-050
+  - VM-01-99-01-101
+  - VM-01-99-01-201
+  - VM-01-99-01-209
+  - VM-01-99-01-801
+  - VM-01-99-02-003
+  - VM-01-99-02-004
+  - VM-01-99-02-401
+  - VM-01-99-02-801
+  - VM-01-99-02-811
+  - VM-01-99-02-812
+  - VM-01-99-02-821
+  - VM-01-99-02-822
+  - VM-01-99-05-801
+  - VM-01-99-16-050
+  - VM-01-99-16-101
+  - VM-01-99-16-801
+  - VM-01-99-33-101
+  - VM-01-99-43-001
+  - VM-01-99-55-001
+  - VM-01-99-77-003
+  - VM-01-99-77-004
+  - VM-01-99-81-001
+  - VM-01-99-90-001
+  - VM-01-99-90-101
+  - VM-01-99-90-302
+  - VM-01-K3D-01-101
+  - VM-01-K3D-16-001
+  - VM-01-KC-01-001
+  - VM-01-KC-01-015
+  - VM-01-KC-01-100
+  - VM-01-KC-01-101
+  - VM-01-KC-01-102
+  - VM-01-KC-01-112
+  - VM-01-KC-02-100
+  - VM-01-KC-03-002
+  - VM-01-KC-03-004
+  - VM-01-KC-04-001
+  - VM-01-KC-04-002
+  - VM-01-KC-04-101
+  - VM-01-KC-16-001
+  - VM-01-KC-16-002
+  - VM-01-KC-16-101
+  - VM-01-KC-16-102
+  - VM-01-KC-16-103
+  - VM-01-KC-16-104
+  - VM-01-KC-16-105
+  - VM-01-KC-16-201
+  - VM-01-KM-01-001
+  - VM-01-KM-01-002
+  - VM-01-KM-01-003
+  - VM-01-KM-16-001
+  - VM-01-KM-16-002
+  - VM-02-00-16-001
+  - VM-02-05-01-601
+  - VM-02-05-01-602
+  - VM-02-05-01-701
+  - VM-02-05-16-601
+  - VM-02-05-16-701
+  - VM-02-08-02-101
+  - VM-02-08-02-102
+  - VM-02-08-16-101
+  - VM-02-09-02-101
+  - VM-02-09-02-102
+  - VM-02-09-07-101
+  - VM-02-09-16-101
+  - VM-02-09-77-001
+  - VM-02-13-01-007
+  - VM-02-13-01-008
+  - VM-02-13-01-013
+  - VM-02-17-01-101
+  - VM-02-17-01-102
+  - VM-02-17-16-101
+  - VM-02-17-20-101
+  - VM-02-17-22-101
+  - VM-02-17-22-102
+  - VM-02-17-78-101
+  - VM-02-24-01-001
+  - VM-02-24-01-002
+  - VM-02-24-01-101
+  - VM-02-24-02-001
+  - VM-02-24-16-001
+  - VM-02-24-16-101
+  - VM-02-24-17-001
+  - VM-02-24-61-001
+  - VM-02-24-87-001
+  - VM-02-31-01-001
+  - VM-02-31-02-001
+  - VM-02-31-16-001
+  - VM-02-31-17-001
+  - VM-02-33-01-201
+  - VM-02-33-16-201
+  - VM-02-33-22-201
+  - VM-02-33-78-201
+  - VM-02-33-VADC-001
+  - VM-02-33-VADC-002
+  - VM-02-36-01-001
+  - VM-02-36-02-001
+  - VM-02-36-02-002
+  - VM-02-36-16-001
+  - VM-02-36-16-002
+  - VM-02-36-17-001
+  - VM-02-37-01-001
+  - VM-02-37-01-002
+  - VM-02-37-01-101
+  - VM-02-37-16-001
+  - VM-02-37-17-001
+  - VM-02-37-18-001
+  - VM-02-41-01-101
+  - VM-02-41-02-101
+  - VM-02-41-02-102
+  - VM-02-41-16-101
+  - VM-02-41-16-102
+  - VM-02-41-17-101
+  - VM-02-42-01-001
+  - VM-02-42-02-001
+  - VM-02-42-02-002
+  - VM-02-42-02-003
+  - VM-02-42-12-001
+  - VM-02-42-16-001
+  - VM-02-42-16-002
+  - VM-02-42-17-001
+  - VM-02-45-01-001
+  - VM-02-45-16-001
+  - VM-02-45-17-001
+  - VM-02-46-01-001
+  - VM-02-46-01-002
+  - VM-02-46-02-001
+  - VM-02-46-02-002
+  - VM-02-46-06-001
+  - VM-02-46-12-001
+  - VM-02-46-16-001
+  - VM-02-46-16-002
+  - VM-02-46-17-001
+  - VM-02-46-90-001
+  - VM-02-47-01-001
+  - VM-02-47-01-002
+  - VM-02-47-01-101
+  - VM-02-47-01-102
+  - VM-02-47-01-301
+  - VM-02-47-02-001
+  - VM-02-47-02-002
+  - VM-02-47-02-003
+  - VM-02-47-02-004
+  - VM-02-47-02-201
+  - VM-02-47-12-001
+  - VM-02-47-16-001
+  - VM-02-47-16-101
+  - VM-02-47-16-201
+  - VM-02-47-17-001
+  - VM-02-47-17-301
+  - VM-02-50-01-001
+  - VM-02-50-02-001
+  - VM-02-50-02-002
+  - VM-02-50-06-001
+  - VM-02-50-12-001
+  - VM-02-50-16-001
+  - VM-02-50-16-002
+  - VM-02-50-17-001
+  - VM-02-51-01-011
+  - VM-02-51-01-012
+  - VM-02-51-16-011
+  - VM-02-51-21-011
+  - VM-02-51-22-011
+  - VM-02-51-22-012
+  - VM-02-52-01-101
+  - VM-02-52-01-102
+  - VM-02-52-02-101
+  - VM-02-52-02-102
+  - VM-02-52-16-101
+  - VM-02-52-16-102
+  - VM-02-52-22-101
+  - VM-02-52-22-102
+  - VM-02-52-77-102
+  - VM-02-52-78-101
+  - VM-02-52-VADC-001
+  - VM-02-52-VADC-002
+  - VM-02-53-01-001
+  - VM-02-53-01-002
+  - VM-02-53-02-001
+  - VM-02-53-02-002
+  - VM-02-53-16-001
+  - VM-02-53-22-001
+  - VM-02-53-22-002
+  - VM-02-53-22-003
+  - VM-02-54-01-001
+  - VM-02-54-16-001
+  - VM-02-54-22-001
+  - VM-02-56-01-001
+  - VM-02-56-02-001
+  - VM-02-56-06-001
+  - VM-02-56-12-001
+  - VM-02-56-16-001
+  - VM-02-56-17-001
+  - VM-02-57-01-001
+  - VM-02-57-01-002
+  - VM-02-57-01-101
+  - VM-02-57-01-102
+  - VM-02-57-16-001
+  - VM-02-57-16-002
+  - VM-02-59-01-101
+  - VM-02-59-01-102
+  - VM-02-59-16-101
+  - VM-02-59-22-101
+  - VM-02-59-22-102
+  - VM-02-59-78-102
+  - VM-02-62-01-101
+  - VM-02-62-16-101
+  - VM-02-62-22-101
+  - VM-02-63-01-001
+  - VM-02-63-01-002
+  - VM-02-63-16-001
+  - VM-02-85-01-101
+  - VM-02-85-01-102
+  - VM-02-85-16-101
+  - VM-02-85-22-101
+  - VM-02-85-22-102
+  - VM-02-87-01-101
+  - VM-02-87-01-102
+  - VM-02-87-16-101
+  - VM-02-87-16-102
+  - VM-02-99-01-008
+  - VM-02-99-01-010-pilote
+  - VM-02-99-01-201
+  - VM-02-99-01-209
+  - VM-02-99-02-401
+  - VM-02-99-05-001
+  - VM-02-99-33-001
+  - VM-02-99-33-002
+  - VM-02-99-90-001
+  - VM-02-99-90-101
+  - VM-02-99-90-302
+  - VM-02-KC-01-001
+  - VM-02-KC-01-015
+  - VM-02-KC-01-100
+  - VM-02-KC-01-112
+  - VM-02-KC-02-100
+  - VM-02-KC-04-001
+  - VM-02-KC-04-002
+  - VM-02-KC-04-101
+  - VM-02-KC-16-001
+  - VM-02-KC-16-101
+  - VM-03-09-02-101
+  - VM-03-09-07-101
+  - VM-03-09-16-101
+  - VM-03-13-01-006
+  - VM-03-13-01-008
+  - VM-03-13-01-030
+  - VM-03-13-16-007
+  - VM-03-13-16-030
+  - VM-03-17-01-001
+  - VM-03-17-01-101
+  - VM-03-17-16-001
+  - VM-03-17-16-101
+  - VM-03-17-20-101
+  - VM-03-17-21-001
+  - VM-03-17-22-001
+  - VM-03-17-22-101
+  - VM-03-17-78-101
+  - VM-03-29-01-001
+  - VM-03-29-02-001
+  - VM-03-29-12-001
+  - VM-03-29-16-001
+  - VM-03-29-17-001
+  - VM-03-46-01-001
+  - VM-03-46-01-002
+  - VM-03-46-02-001
+  - VM-03-46-02-002
+  - VM-03-46-06-001
+  - VM-03-46-12-001
+  - VM-03-46-16-001
+  - VM-03-46-16-002
+  - VM-03-46-17-001
+  - VM-03-51-01-011
+  - VM-03-51-16-011
+  - VM-03-51-21-011
+  - VM-03-51-22-011
+  - VM-03-51-78-101
+  - VM-03-52-01-101
+  - VM-03-52-02-101
+  - VM-03-52-16-101
+  - VM-03-52-16-102
+  - VM-03-52-22-101
+  - VM-03-52-78-101
+  - VM-03-53-01-001
+  - VM-03-53-02-001
+  - VM-03-53-16-001
+  - VM-03-53-22-001
+  - VM-03-87-01-101
+  - VM-03-87-16-101
+  - VM-03-87-16-102
+  - VM-03-99-01-002
+  - VM-03-99-01-003
+  - VM-05-51-03-001
+  - VM-05-51-EPM11124
+  - VM-05-51-EPM112
+  - VM-pacsen
+  - vm-pacsen-2
+  - VM-pacsen-oracle
+  - voip-01.kleegroup.com
+  - voip-02.kleegroup.com
+children:
+/KleeGroup-Hosting:
+hosts:
+VM-01-99-02-821:
+os_version: Other (32-bit)
+ip_adm: 192.168.89.162
+/KleeGroup-Hosting/DC4/Publisoft:
+hosts:
+VM-01-30-77-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.124.121
+/KleeGroup-Hosting/TCC/KleeCommerce:
+hosts:
+VM-01-KC-01-001:
+os_version: Microsoft Windows Server 2008 (32-bit)
+ip_adm: 192.168.116.163
+VM-01-KC-16-103:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.116.47
+VM-01-KC-16-105:
+os_version: Other (32-bit)
+ip_adm: 192.168.116.49
+VM-01-KC-16-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.116.45
+VM-01-KC-02-100:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.116.61
+VM-01-KC-16-102:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.116.46
+VM-01-KC-04-101:
+os_version: Microsoft Windows Server 2016 (64-bit)
+ip_adm: 192.168.116.181
+VM-01-KC-01-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.116.188
+VM-01-KC-01-112:
+os_version: Other (32-bit)
+ip_adm: 192.168.116.182
+VM-01-KC-16-002:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.116.35
+VM-01-KC-01-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 192.168.116.190
+VM-01-KC-01-100:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.116.189
+VM-01-KC-04-001:
+os_version: Microsoft Windows Server 2008 (32-bit)
+ip_adm: 192.168.116.38
+VM-01-KC-04-002:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 192.168.116.39
+VM-01-KC-16-201:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.116.53
+VM-01-KC-01-015:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.116.176
+VM-01-KC-03-004:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.116.180
+VM-01-KC-16-104:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.116.48
+VM-01-KC-03-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.116.168
+/KleeGroup-Hosting/DC4/DGT:
+hosts:
+dgt-zonage-bdd:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.6
+dgt-zonage:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.19.180.5
+dgt-app:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.2
+dgt-bdd:
+os_version: CentOS 6 (64-bit)
+ip_adm: 172.19.180.3
+dgt-es:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.4
+/KleeGroup-Hosting/DC4/SNCF:
+hosts:
+VM-01-31-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.31.68
+VM-01-31-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.31.67
+VM-01-31-01-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.31.66
+VM-01-31-16-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.31.23
+/KleeGroup-Hosting/TCC:
+hosts:
+VM-05-51-EPM11124:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.107.152
+VM-05-51-EPM112:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.16.107.153
+/KleeGroup-Hosting/TCC/MOBIVIA:
+hosts:
+VM-01-59-22-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.75
+VM-01-59-01-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.73
+VM-01-59-01-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.72
+VM-01-59-77-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.70
+VM-01-59-16-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.118
+VM-01-59-78-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.71
+VM-01-59-22-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 172.17.114.74
+/KleeGroup-Hosting/TCC/DGEFP-FSE:
+hosts:
+VM-02-05-16-701:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.5.18
+VM-01-05-01-601:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.5.90
+VM-02-05-01-701:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.5.85
+VM-01-05-16-601:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.5.25
+VM-01-05-01-602:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.5.91
+/KleeGroup-Hosting/TCC/KleePerformance:
+hosts:
+VM-01-99-01-201:
+os_version: Other (32-bit)
+ip_adm: 192.168.43.155
+/KleeGroup-Hosting/TCC/KleeMedia:
+hosts:
+VM-01-KM-16-002:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.116.42
+VM-01-KM-01-002:
+os_version: Microsoft Windows Server 2008 (32-bit)
+ip_adm: 192.168.116.166
+VM-01-KM-01-003:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.116.179
+VM-01-K3D-16-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.51.138
+VM-01-KM-01-001:
+os_version: Microsoft Windows Server 2008 (32-bit)
+ip_adm: 192.168.116.164
+VM-01-K3D-01-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.43.136
+VM-01-KM-16-001:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.116.36
+/KleeGroup-Hosting/DC4/HAS:
+hosts:
+VM-01-50-01-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.50.66
+VM-02-50-16-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.50.19
+VM-01-50-02-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.50.67
+VM-01-50-06-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.50.69
+VM-01-50-17-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.50.71
+VM-02-50-02-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.50.68
+VM-01-50-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.50.18
+VM-01-50-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.50.70
+/KleeGroup-Hosting/DC4/KleePerformance:
+hosts:
+VM-02-99-01-201:
+os_version: Other (32-bit)
+ip_adm: 192.168.180.155
+/KleeGroup-Hosting/TCC/Lesaffre:
+hosts:
+VM-01-52-22-102:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 10.102.2.220
+VM-03-52-22-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.212
+VM-03-52-78-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.213
+VM-01-52-02-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 10.102.2.216
+VM-01-52-16-102:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 10.102.2.147
+VM-01-52-01-102:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 10.102.2.215
+VM-01-52-01-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 10.102.2.214
+VM-03-52-01-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.209
+VM-03-52-16-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.156
+VM-03-52-16-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.157
+VM-03-52-02-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.210
+VM-01-52-16-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.146
+VM-01-52-02-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.217
+VM-01-52-78-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 10.102.2.221
+VM-01-52-77-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.222
+VM-01-52-22-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 10.102.2.219
+/KleeGroup-Hosting/DC4/TOTAL:
+hosts:
+VM-02-46-01-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.197
+VM-02-46-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.198
+VM-03-46-16-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.156
+VM-03-46-06-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.216
+VM-03-46-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.212
+VM-03-46-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.214
+VM-02-46-90-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.142.208
+VM-02-46-06-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.202
+VM-02-46-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.201
+VM-03-46-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.215
+VM-01-46-02-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.199
+VM-02-46-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.200
+VM-02-46-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.153
+VM-03-46-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.210
+VM-02-46-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.196
+VM-01-46-16-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.154
+VM-03-46-01-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.213
+VM-03-46-02-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.211
+VM-03-46-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.155
+/KleeGroup-Hosting/DC4/Spark:
+hosts:
+spark-bdd:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.75
+spark-store:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.73
+spark-eldorado-parambdd:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.68
+VM-01-97-17-003:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.97.20
+spark-eldorado-paramapp2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.67
+spark-demo-front:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.69
+VM-01-97-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.97.66
+VM-01-97-17-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.97.19
+VM-01-97-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.97.18
+spark-eldorado-paramapp1:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.66
+spark-app:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.70
+spark-search:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.72
+spark-nfs:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.74
+spark-rmq:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.71
+/KleeGroup-Hosting/DC4/Eurotoll:
+hosts:
+VM-01-63-01-001:
+os_version: CentOS 4/5/6/7 (64-bit)
+ip_adm: 172.17.63.67
+VM-01-63-16-101:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.63.23
+VM-01-63-16-001:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.63.19
+VM-01-63-16-102:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: ?
+VM-01-63-01-101:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.63.81
+VM-01-63-01-002:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.63.68
+/KleeGroup-Hosting/DC4/ADEO/Dev:
+hosts:
+VM-03-53-22-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.216
+VM-03-53-16-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.148
+VM-03-53-01-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.214
+VM-03-53-02-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.215
+/KleeGroup-Hosting/DC4/GTT:
+hosts:
+VM-01-57-16-002:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.57.19
+VM-01-57-16-001:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.57.18
+VM-01-57-01-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.57.68
+VM-01-57-01-001:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.57.66
+VM-01-57-01-102:
+os_version: Other (32-bit)
+ip_adm: 172.17.57.69
+VM-01-57-01-002:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.57.67
+/KleeGroup-Hosting/TCC/Kiabi:
+hosts:
+VM-02-87-16-101:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.21
+VM-01-87-16-101:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.19
+VM-03-87-16-102:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.24
+VM-02-87-16-102:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.22
+VM-01-87-16-102:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.20
+VM-01-87-77-101:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.71
+VM-01-87-77-102:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.72
+VM-02-87-01-101:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.76
+VM-02-87-01-102:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.77
+VM-01-87-01-101:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.73
+VM-01-87-01-102:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.74
+VM-03-87-16-101:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.23
+VM-01-87-78-101:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.75
+VM-03-87-01-101:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.87.78
+/KleeGroup-Hosting/TCC/CFAO:
+hosts:
+VM-01-33-16-201:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.16.92.19
+VM-01-33-VADC-001:
+os_version: Ubuntu Linux (64-bit)
+ip_adm: 172.16.92.123
+VM-01-33-78-201:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.16.92.115
+VM-01-33-01-201:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.16.92.111
+VM-01-33-22-201:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 172.16.92.113
+VM-01-33-22-202:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.16.92.114
+VM-01-33-01-202:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.16.92.112
+VM-01-33-VADC-002:
+os_version: Ubuntu Linux (64-bit)
+ip_adm: 172.16.92.124
+VM-01-33-77-201:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.16.92.110
+/KleeGroup-Hosting/DC4/MOBIVIA/PreProd:
+hosts:
+VM-02-59-01-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.206
+VM-02-59-22-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.209
+VM-02-59-16-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.147
+VM-02-59-22-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 172.17.114.208
+VM-02-59-78-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.205
+VM-02-59-01-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.207
+/KleeGroup-Hosting/TCC/FPLP/EPM124/Dev:
+hosts:
+VM-03-17-20-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.85
+VM-03-17-22-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.84
+VM-03-17-16-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.20
+VM-03-17-78-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.86
+VM-03-17-01-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.83
+/KleeGroup-Hosting/DC4/ALLIANZ/Recette_Client:
+hosts:
+VM-03-29-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.29.73
+VM-03-29-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.29.19
+VM-03-29-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.29.72
+VM-03-29-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.29.70
+VM-03-29-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.29.71
+/KleeGroup-Hosting/DC4/FNMF:
+hosts:
+VM-01-09-02-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.19.206
+VM-01-09-07-101:
+os_version: Other (32-bit)
+ip_adm: 172.17.19.209
+VM-02-09-77-001:
+os_version: 
+ip_adm: 172.17.19.205
+VM-01-09-16-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.19.155
+VM-01-09-02-102:
+os_version: Other (32-bit)
+ip_adm: 172.17.19.207
+/KleeGroup-Hosting/DC4/FPLP/EPM124/Prod:
+hosts:
+VM-01-17-77-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.216
+VM-01-17-22-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.208
+VM-01-17-78-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.198
+VM-01-17-01-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.206
+VM-01-17-16-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.151
+VM-01-17-22-102:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.209
+VM-01-17-01-102:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.207
+VM-01-17-20-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.211
+/KleeGroup-Hosting/DC4/Arc:
+hosts:
+VM-02-62-22-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.164.203
+VM-02-62-01-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.164.202
+VM-02-62-16-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.164.153
+VM-01-62-77-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.164.201
+/KleeGroup-Hosting/TCC/ADN:
+hosts:
+VM-01-15-01-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.15.10
+/KleeGroup-Hosting/DC4/ALLIANZ/Prod:
+hosts:
+VM-01-29-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.29.82
+VM-01-29-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.29.84
+VM-01-29-16-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.29.29
+VM-01-29-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.29.81
+VM-01-29-02-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.29.83
+VM-01-29-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.29.80
+/KleeGroup-Hosting/DC4/Malteurop:
+hosts:
+VM-02-51-22-012:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.108.214
+VM-03-51-21-011:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.108.197
+VM-02-51-01-011:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.108.211
+VM-05-51-03-001:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.108.216
+VM-03-51-16-011:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.108.146
+VM-03-51-78-101:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.108.200
+VM-03-51-01-011:
+os_version: 
+ip_adm: 172.16.108.195
+VM-02-51-21-011:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.108.215
+VM-02-51-01-012:
+os_version: 
+ip_adm: 172.16.108.212
+VM-01-51-77-003:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.108.210
+VM-02-51-22-011:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.108.213
+VM-02-51-16-011:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.108.156
+VM-03-51-22-011:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.108.196
+/KleeGroup-Hosting/DC4/Management:
+hosts:
+IT-DT4-Tools-001:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.89.99
+VM-02-99-90-302:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.142.206
+IT-GL-ELS-01:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.81.108
+IT-GL-ELS-02:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.81.107
+VM-02-99-90-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.142.10
+VM-01-99-02-811:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.89.92
+IT-DT4-RUD-WEB-01:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 
+VM-01-99-16-801:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.140.123
+VM-01-99-02-801:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.180.124
+IT-GL-WEB-02:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.81.110
+VM-01-99-01-801:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.180.123
+IT-GL-ELS-03:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.81.106
+IT-BO-6LOG-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.89.80
+cbw-probe-data4-01:
+os_version: Other (32-bit)
+ip_adm: 192.168.89.9
+IT-GL-WEB-01:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.81.109
+VM-01-99-02-812:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.89.93
+IT-BO-DNS-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.89.81
+IT-BO-WEBSTATS-01:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.180.160
+IT-BO-RDS-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.89.60
+VM-01-99-05-801:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.140.124
+/KleeGroup-Hosting/DC4/Mutualise:
+hosts:
+VM-02-99-05-001:
+os_version: Other 2.6.x Linux (64-bit)
+ip_adm: 192.168.89.39
+VM-01-99-01-050:
+os_version: CentOS 4/5/6/7 (64-bit)
+ip_adm: 192.168.180.50
+VM-01-99-02-003:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.180.29
+VM-01-99-77-004:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.140.32
+VM-02-99-90-101:
+os_version: Other 3.x or later Linux (64-bit)
+ip_adm: 192.168.142.15
+VM-02-99-33-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.142.211
+VM-01-99-55-001:
+os_version: Microsoft Windows Server 2016 (64-bit)
+ip_adm: 192.168.180.55
+alec.kleegroup.com:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.139.11
+VM-01-99-77-003:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.140.31
+VM-01-99-02-004:
+os_version: Red Hat Enterprise Linux 6 (64-bit)
+ip_adm: 192.168.180.30
+VM-01-99-16-050:
+os_version: CentOS 4/5/6/7 (64-bit)
+ip_adm: 192.168.140.50
+VM-02-99-33-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.142.212
+VM-01-99-01-006:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.89.5
+oreon-002-BOU:
+os_version: Other Linux (32-bit)
+ip_adm: 
+VM-03-99-01-003:
+os_version: Red Hat Enterprise Linux 6 (64-bit)
+ip_adm: 192.168.127.167
+VM-03-99-01-002:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.127.162
+VM-01-99-01-007:
+os_version: 
+ip_adm: 192.168.89.6
+/KleeGroup-Hosting/DC4/FFSA:
+hosts:
+VM-02-08-02-102:
+os_version: Other (32-bit)
+ip_adm: 192.168.179.121
+VM-02-08-02-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.179.120
+VM-02-08-16-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.179.101
+/KleeGroup-Hosting/DC4/Rct01:
+hosts:
+EFP_CAS1:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.221
+CDC-MQ:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.199
+Isis-BDD:
+os_version: Red Hat Enterprise Linux 6 (64-bit)
+ip_adm: 192.168.127.252
+sia-refonte-bdd-rec-ext:
+os_version: CentOS 6 (64-bit)
+ip_adm: 172.19.180.28
+justice-isis-sso:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.137
+justice-isis-app2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 
+cig-hygie-rec-externe-1:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.230
+suit-batch:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.74
+EFP_BDD2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.225
+IGNPRO:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.127.21
+ceres-api-recext:
+os_version: Other 4.x or later Linux (64-bit)
+ip_adm: 192.168.127.12
+BAF-EXT-WEB-APP:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.208
+sigdca-ext-bdd2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.4
+cnc-sofi-backup:
+os_version: Oracle Solaris 10 (64-bit)
+ip_adm: 192.168.127.20
+ceres-es-recext2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.98
+rdvpref-demo:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.178
+formapro-app-ext:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.175
+CDC-MONITORING-APP:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.138
+test-resto:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.90
+atlas-ext:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.127.158
+cp2i-nuu-pgp-rct:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.127.16
+spark-total-bdd:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.142
+CDC-WEB1:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.114
+gun-delivery-tracker-rct:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.7
+dapsso:
+os_version: CentOS 4/5/6/7 (64-bit)
+ip_adm: 192.168.127.13
+CP2I_Postgres96_utf8-rct:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.19
+demo-dr2-es:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.49
+dgac-taxes:
+os_version: SUSE Linux Enterprise 12 (64-bit)
+ip_adm: 192.168.127.152
+DECA-2MAINS-API2-REC-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.101
+sigdca-ext-app4:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.127.109
+minerve:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.82
+suit-search:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.66
+HATVP-TEST-MIDDLE-1:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.201
+Agadir-BDD:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.127.107
+suit-office:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.72
+spark-hcl-e-param:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.192
+sia-refonte-batch-asp-prod:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.249
+DGAC-DEMO-RCT:
+os_version: SUSE Linux Enterprise 12 (64-bit)
+ip_adm: 192.168.127.128
+vm-pacsen-2:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.127.14
+CERES-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.166
+sia-refonte-api-rec-ext:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.27
+suit-nas:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.76
+suit-app-1:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.63
+dev2022-elk:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.127.78
+EFP_APP1:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.248
+Isis-Front:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.127.253
+spark-total-app-rct:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.141
+suit-matomo:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.60
+SIE2-TOMCAT2-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 
+HATVP-TEST-BACK-1:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.204
+Agadir-app:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.127.106
+VM-pacsen:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: pwd?
+dgac-annuaire:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.163
+CDC-SEARCH:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.189
+CDC-APPS:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.145
+jira-minint:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.182
+CDC-APP1:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.115
+hatvp-test-atlas-middle:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.232
+sigdca-bdd:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.127.68
+rec-extramut:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.35
+si-jeunesse-front:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.223
+cnaps-sso:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.198
+archimed-rct-ext:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.41
+dgac-mdap:
+os_version: SUSE Linux Enterprise 12 (64-bit)
+ip_adm: 192.168.127.105
+CLIENT-VPN1:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 192.168.127.100
+VM-02-99-01-008:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.127.127
+spark-liege-param:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.153
+dgac-dsac:
+os_version: SUSE Linux Enterprise 12 (64-bit)
+ip_adm: 192.168.127.6
+demo-dr2-bdd:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.50
+BAF-EXT-BDD:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.211
+oaw-recette:
+os_version: Ubuntu Linux (64-bit)
+ip_adm: 192.168.127.34
+HATVP-TEST-MIDDLE-3:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.127.203
+EFP_efpconnect-recette_APP:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.104
+suit-app-2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.64
+CDC-BDD:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.194
+CDC-ANALYTICS-BDD:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.156
+squashtest:
+os_version: CentOS 4/5/6/7 (64-bit)
+ip_adm: 192.168.127.168
+hatvp-test-atlas-back:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.235
+SIE2-JIRA-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 
+SIGDCA-GEOSERVER-BDD:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.117
+suit-be:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: DOWN
+demo-dr2-app:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.48
+ceres-recext2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.15
+sigdca-ext-bdd3:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.5
+Agadir-search:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.127.108
+VM-pacsen-oracle:
+os_version: Red Hat Enterprise Linux 5 (64-bit)
+ip_adm: 192.168.126.80
+EFP_efpconnect-recette_CAS:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.136
+si-alternance.rct01:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.127.40
+EFP_APP2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.250
+suit-ldap:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.69
+CDC-APP2:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.238
+BAF-EXT-SEARCH:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.127.210
+kleedigital-rct01:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.127.149
+cig-hygie-rec-externe-2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.231
+cnaps-app:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.197
+DECA-2MAINS-BDD-REC-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.103
+HATVP-TEST-MIDDLE-2:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.127.202
+coach-climat:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.36
+confluence-santefr:
+os_version: Debian GNU/Linux 9 (64-bit)
+ip_adm: 192.168.127.23
+dgac-qualite:
+os_version: SUSE Linux Enterprise 12 (64-bit)
+ip_adm: 
+sandbox-devops:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.132
+sigdca-ext-bdd4:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.110
+EFP_BDD1:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.224
+guichet-unique-runners:
+os_version: Other (32-bit)
+ip_adm: 172.19.180.20
+CDC-ANALYTICS-APP:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.126
+cnaps-data:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.196
+luna-ext:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.159
+Chatbot-Factory:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.11
+sondages.kleegroup:
+os_version: CentOS 4/5/6 (32-bit)
+ip_adm: 192.168.127.57
+sigdca-ext-app3:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.3
+DECA-2MAINS-BO2-REC-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.99
+SparkWeb:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.127.191
+spark-hcl-e-parambdd:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.193
+SIGDCA-PREPROD:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 
+coach-climat-pers:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.37
+suit-apache:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.62
+si-jeunesse-back:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.205
+CLIENT-VPN2:
+os_version: Microsoft Windows 8.x (64-bit)
+ip_adm: 192.168.127.99
+si-jeunesse-bdd:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.207
+DECA-2MAINS-BO1-REC-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.98
+formapro-es-ext:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.177
+SIE2-TOMCAT1-EXT:
+os_version: CentOS 7 (64-bit)
+ip_adm: 
+EFP_CAS2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.222
+suit-persist:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.65
+EFP_efpconnect-recette_ES:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.164
+sie2-tableau2:
+os_version: 
+ip_adm: 
+DECA-2MAINS-OPS-REC-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.104
+dgpr-gun-form-maenv:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.195
+dhup-cotation-rct:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.226
+poft-serv:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.22
+EFP_efpconnect-recette_BDD:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.144
+dgac-qualite02:
+os_version: Ubuntu Linux (64-bit)
+ip_adm: 192.168.127.17
+rct-gael-app:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.112
+sigdca-ext-app2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.2
+spark-maintenance-recette:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.127.135
+SIE2-BDD1-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 
+EFP_LDAP2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.228
+periscope-es:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.19.180.46
+dondesang-RCT:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.209
+EFP_ES:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.215
+formapro-bdd-ext:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.176
+rct-gael-bdd:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 192.168.127.113
+BAF-EXT-SSO2:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.127.213
+periscope-app:
+os_version: Other (32-bit)
+ip_adm: 172.19.180.45
+EFP_WEB:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.220
+dapelastic:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.127.186
+spark-liege-parambdd:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.154
+EFP_LDAP1:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.227
+cp2i-numero-unique-rct:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.127.18
+DECA-2MAINS-API1-REC-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.100
+SIE2-BDD2-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 
+EFP_ADM:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.127.251
+sia-refonte-app-rec-ext:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.26
+jira-santefr:
+os_version: Ubuntu Linux (64-bit)
+ip_adm: 
+BAF-EXT-SSO1:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.127.212
+DECA-2MAINS-ES-REC-EXT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.102
+sigdca-app:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.127.67
+/KleeGroup-Hosting/DC4/ADEO/Production:
+hosts:
+VM-01-53-22-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.200
+VM-01-53-01-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.197
+VM-01-53-16-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.146
+VM-01-53-77-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.194
+VM-01-53-02-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.199
+VM-01-53-22-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.201
+VM-01-53-01-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.196
+VM-01-53-02-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.198
+VM-01-53-22-003:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.202
+VM-01-53-77-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.195
+/KleeGroup-Hosting/TCC/TERREAL:
+hosts:
+VM-01-54-22-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.54.68
+VM-02-54-01-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.54.72
+VM-02-54-22-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.54.73
+VM-01-54-77-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.54.66
+VM-02-54-16-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.54.19
+VM-01-54-16-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.54.18
+VM-01-54-01-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.54.67
+/KleeGroup-Hosting/TCC/TIPI:
+hosts:
+VM-01-60-01-001:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.60.194
+/KleeGroup-Hosting/DC4/Safe Easy:
+hosts:
+VM-02-41-16-102:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.26
+VM-01-41-16-101:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.25
+VM-02-41-02-102:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.73
+VM-01-41-02-101:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.71
+VM-01-41-01-101:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.70
+VM-01-41-17-101:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.72
+/KleeGroup-Hosting/DC4/Kleegroup:
+hosts:
+dc4-kh-smartproxy-01:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.89.79
+KH-STATION:
+os_version: Microsoft Windows XP Professional (32-bit)
+ip_adm: 192.168.140.200
+VM-02-99-01-010-pilote:
+os_version: Other (32-bit)
+ip_adm: 192.168.139.29
+VM-02-99-01-209:
+os_version: Other (32-bit)
+ip_adm: 192.168.180.110
+voip-02.kleegroup.com:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.139.56
+Mx3:
+os_version: Other Linux (32-bit)
+ip_adm: 
+voip-01.kleegroup.com:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.139.55
+NS1.KLEEGROUP.COM:
+os_version: CentOS 4/5/6 (32-bit)
+ip_adm: 192.168.139.8
+Extranet:
+os_version: Ubuntu Linux (32-bit)
+ip_adm: 192.168.180.142
+KLEE-APP:
+os_version: Other 2.4.x Linux (32-bit)
+ip_adm: 
+VM-02-99-02-401:
+os_version: Other (32-bit)
+ip_adm: 192.168.180.91
+Mx4:
+os_version: CentOS 4/5/6 (32-bit)
+ip_adm: 192.168.139.34
+VM-01-99-43-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.89.77
+VM-02-00-16-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.20.201.34
+/KleeGroup-Hosting/TCC/Kleegroup:
+hosts:
+VM-01-99-81-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.19.78.146
+VM-01-00-02-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 172.20.200.134
+kh-gitlab:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.43.210
+VM-01-99-02-401:
+os_version: Other (32-bit)
+ip_adm: 192.168.43.91
+VM-01-00-16-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.20.200.34
+VM-01-99-01-101:
+os_version: Other (32-bit)
+ip_adm: 192.168.43.143
+VM-01-99-01-209:
+os_version: Other (32-bit)
+ip_adm: 192.168.43.110
+VM-01-99-16-101:
+os_version: Other (32-bit)
+ip_adm: 192.168.51.100
+/KleeGroup-Hosting/DC4/MOBIVIA:
+hosts:
+VM-01-59-77-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.114.204
+/KleeGroup-Hosting/TCC/Malteurop:
+hosts:
+VM-01-51-01-011:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.107.211
+VM-01-51-77-001:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.107.216
+VM-01-51-78-011:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.107.200
+VM-01-51-77-002:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.107.217
+VM-01-51-01-012:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.107.212
+VM-01-51-21-011:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.16.107.215
+VM-01-51-16-011:
+os_version: 
+ip_adm: 172.16.107.156
+VM-01-51-22-011:
+os_version: 
+ip_adm: 172.16.107.213
+VM-01-51-22-012:
+os_version: 
+ip_adm: 172.16.107.214
+/KleeGroup-Hosting/TCC/KleeCommerce/Databases:
+hosts:
+VM-01-KC-16-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.116.34
+/KleeGroup-Hosting/TCC/TAE:
+hosts:
+VM-02-36-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.36.198
+VM-01-36-16-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.36.154
+VM-02-36-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.36.196
+VM-01-36-02-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.36.199
+VM-02-36-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.36.153
+VM-02-36-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.36.197
+/KleeGroup-Hosting/TCC/Publisoft:
+hosts:
+VM-01-30-78-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.114.162
+VM-01-30-99-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.114.126
+VM-01-30-78-100:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.114.163
+VM-01-30-78-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.114.180
+VM-01-30-77-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.114.121
+VM-01-30-16-005:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.114.76
+VM-01-30-80-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.114.124
+VM-01-30-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.114.171
+VM-01-30-16-004:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.114.75
+/KleeGroup-Hosting/TCC/Safe Easy:
+hosts:
+VM-02-41-16-101:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.155
+VM-01-41-02-102:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.203
+VM-02-41-02-101:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.201
+VM-02-41-17-101:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.202
+VM-01-41-16-102:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.156
+VM-02-41-01-101:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.41.200
+/KleeGroup-Hosting/TCC/SPARK CEVA:
+hosts:
+VM-02-42-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.197
+VM-01-42-02-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.199
+VM-02-42-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.200
+VM-02-42-02-003:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.201
+VM-02-42-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.196
+VM-02-42-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.198
+VM-02-42-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.153
+VM-01-42-16-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.154
+/KleeGroup-Hosting/TCC/Eurotoll:
+hosts:
+VM-01-63-01-003:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.63.195
+VM-01-63-16-002:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.63.147
+VM-02-63-01-001:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.63.199
+VM-02-63-16-001:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.63.152
+VM-02-63-01-002:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.63.200
+/KleeGroup-Hosting/TCC/SNCF:
+hosts:
+VM-02-31-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.31.196
+VM-02-31-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.31.197
+VM-02-31-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.31.153
+VM-02-31-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.31.198
+/KleeGroup-Hosting/DC4/AGEFICE:
+hosts:
+VM-01-24-01-003:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.24.74
+VM-01-24-16-101:
+os_version: Other (32-bit)
+ip_adm: 172.17.24.23
+VM-01-24-16-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 172.17.24.19
+VM-01-24-01-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.24.70
+VM-01-24-16-002:
+os_version: CentOS 6 (64-bit)
+ip_adm: 172.17.24.20
+VM-01-24-61-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.24.22
+VM-01-24-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.24.76
+VM-01-24-17-001:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.24.73
+VM-01-24-10-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.24.77
+VM-01-24-01-004:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.24.75
+VM-01-24-01-002:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.24.71
+VM-01-24-87-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.24.21
+VM-01-24-01-101:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.24.72
+/KleeGroup-Hosting/TCC/Mutualise:
+hosts:
+Mysql005:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.51.99
+kh05:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 
+VM-01-99-01-008:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.43.201
+ns2:
+os_version: CentOS 4/5/6 (32-bit)
+ip_adm: 192.168.43.237
+VM-01-99-01-004:
+os_version: Red Hat Enterprise Linux 6 (64-bit)
+ip_adm: 192.168.89.251
+VM-01-99-01-009:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.43.33
+VM-01-99-01-005:
+os_version: Red Hat Enterprise Linux 6 (64-bit)
+ip_adm: 192.168.89.252
+VM-01-99-33-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.242.221
+mysql003:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 
+Mysql002:
+os_version: Other Linux (32-bit)
+ip_adm: 
+kh06:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.43.199
+/KleeGroup-Hosting/TCC/HAS:
+hosts:
+VM-02-50-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.50.146
+VM-02-50-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.50.198
+VM-01-50-02-002:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.50.196
+VM-02-50-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.50.195
+VM-02-50-06-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.50.197
+VM-02-50-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.50.199
+VM-01-50-16-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.50.147
+VM-02-50-01-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.50.194
+/KleeGroup-Hosting/DC4/Valtech:
+hosts:
+VM-02-85-22-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.185.208
+VM-01-85-77-102:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 192.168.185.205
+VM-02-85-01-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.185.206
+VM-02-85-01-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.185.207
+VM-02-85-22-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.185.209
+VM-02-85-16-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 192.168.185.147
+/KleeGroup-Hosting/DC4/FEI:
+hosts:
+VM-01-37-17-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.37.19
+VM-01-37-01-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.37.66
+VM-01-37-01-002:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.37.67
+VM-01-37-16-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.37.18
+VM-01-37-18-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.37.20
+VM-01-37-01-101:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.37.68
+/KleeGroup-Hosting/DC4/BG:
+hosts:
+VM-01-22-01-004:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.77
+VM-01-22-MIG-001:
+os_version: Microsoft Windows 10 (64-bit)
+ip_adm: 172.17.22.85
+VM-01-22-01-010:
+os_version: Other 2.6.x Linux (32-bit)
+ip_adm: 172.17.22.92
+VM-01-22-01-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.75
+VM-01-22-01-006:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.79
+VM-01-22-77-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.20
+VM-01-22-DIM-001:
+os_version: Ubuntu Linux (64-bit)
+ip_adm: 172.17.22.59
+VM-01-22-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.71
+VM-01-22-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.70
+VM-01-22-PULSE-001:
+os_version: Other 2.6.x Linux (64-bit)
+ip_adm: 172.17.22.90
+VM-01-22-WSUS-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.93
+VM-01-22-16-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.22
+VM-01-22-01-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.74
+VM-01-22-ADC-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.89
+VM-01-22-16-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.23
+VM-01-22-02-003:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.82
+VM-01-22-RDS-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.21
+VM-01-22-01-003:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.76
+VM-01-22-01-005:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.78
+VM-01-22-PULSE-001-TEST-SEC:
+os_version: 
+ip_adm: 
+VM-01-22-02-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.80
+/KleeGroup-Hosting/TCC/FPLP/EPM124/PreProd:
+hosts:
+VM-02-17-22-102:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.80
+VM-02-17-01-102:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.78
+VM-02-17-01-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.77
+VM-02-17-16-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.19
+VM-02-17-78-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.82
+VM-02-17-20-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.81
+VM-02-17-22-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.79
+/KleeGroup-Hosting/DC4/CERTDC:
+hosts:
+VM-01-47-02-001:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.47.70
+VM-01-47-02-004:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.47.73
+VM-01-47-01-001:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.66
+VM-01-47-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.47.76
+VM-01-47-17-301:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.47.22
+VM-01-47-16-101:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.20
+VM-01-47-02-201:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.75
+VM-01-47-02-002:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.47.71
+VM-01-47-01-002:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.67
+VM-01-47-16-201:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.21
+VM-01-47-16-001:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.47.18
+VM-01-47-02-003:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.47.72
+VM-01-47-01-101:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.68
+VM-01-47-01-102:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.69
+VM-01-47-17-001:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.47.19
+VM-01-47-01-301:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.74
+/KleeGroup-Hosting/DC4/Mars:
+hosts:
+mars-demo:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.127.59
+/KleeGroup-Hosting/DC4/Reacteur:
+hosts:
+REACTEUR-RCT-ES2:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.88
+REACTEUR-RCT-CONSULT:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.84
+REACTEUR-RCT-GRA-MGR:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.91
+Rct-Reacteur-BDD:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.19.180.44
+REACTEUR-RCT-ES1:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.87
+REACTEUR-RCT-BDD:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.85
+Rct-Reacteur-APP:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.19.180.42
+REACTEUR-RCT-ES3:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.89
+Rct-Reacteur-SEARCH:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.19.180.43
+REACTEUR-RCT-GRA-PUB:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.90
+REACTEUR-RCT-GRA-STO:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.92
+REACTEUR-RCT-MQ:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.86
+REACTEUR-RCT-EXT-WEB:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.82
+REACTEUR-RCT-ADMIN:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.19.180.83
+/KleeGroup-Hosting/TCC/BG:
+hosts:
+VM-01-22-77-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.148
+VM-01-22-RDS-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.22.149
+/KleeGroup-Hosting/TCC/FEI:
+hosts:
+VM-02-37-18-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.37.148
+VM-02-37-01-101:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.37.196
+VM-02-37-01-002:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.37.195
+VM-02-37-01-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.37.194
+VM-02-37-17-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.37.147
+VM-02-37-16-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.17.37.146
+/KleeGroup-Hosting/TCC/FPLP/EPM124:
+hosts:
+VM-01-17-77-102:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.113.87
+/KleeGroup-Hosting/TCC/France Active:
+hosts:
+VM-01-13-01-007:
+os_version: Red Hat Enterprise Linux 5 (32-bit)
+ip_adm: 172.17.12.236
+VM-01-13-16-030:
+os_version: Other (64-bit)
+ip_adm: 172.17.12.123
+VM-01-13-01-008:
+os_version: Microsoft Windows Server 2003 Standard (32-bit)
+ip_adm: 172.17.12.237
+VM-01-13-01-030:
+os_version: Other (64-bit)
+ip_adm: 172.17.12.250
+VM-01-13-77-102:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.12.106
+VM-01-13-01-014:
+os_version: Microsoft Windows Server 2008 (32-bit)
+ip_adm: 172.17.12.240
+VM-01-13-01-006:
+os_version: Red Hat Enterprise Linux 5 (32-bit)
+ip_adm: 172.17.12.235
+VM-01-13-16-007:
+os_version: Microsoft Windows Server 2003 (32-bit)
+ip_adm: 172.17.12.118
+VM-01-13-77-101:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.12.105
+/KleeGroup-Hosting/TCC/Management:
+hosts:
+VM-01-99-90-302:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.242.206
+IT-RB-CAM-01:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.81.240
+IT-RB-TOOLS-01:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.89.193
+VM-01-99-02-822:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.89.163
+IT-RB-DNS-001:
+os_version: Red Hat Enterprise Linux 6 (64-bit)
+ip_adm: 
+oreon-002-RB:
+os_version: Other Linux (32-bit)
+ip_adm: 
+VM-01-99-90-101:
+os_version: Other 3.x Linux (64-bit)
+ip_adm: 192.168.242.15
+IT-RB-OBS-001:
+os_version: Red Hat Enterprise Linux 6 (64-bit)
+ip_adm: 
+IT-TCG-NXL-01:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.81.228
+IT-RB-RDS-001:
+os_version: Red Hat Enterprise Linux 6 (64-bit)
+ip_adm: 
+IT-RB-6LOG-001:
+os_version: Red Hat Enterprise Linux 6 (64-bit)
+ip_adm: 
+VM-01-99-90-001:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.242.10
+IT-RB-SPLA-KMS:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.89.240
+cbw-probe-equinix-01:
+os_version: Other (32-bit)
+ip_adm: 192.168.89.137
+/KleeGroup-Hosting/DC4/France Active:
+hosts:
+VM-03-13-01-030:
+os_version: Other (64-bit)
+ip_adm: 172.17.13.251
+VM-03-13-16-030:
+os_version: Other (64-bit)
+ip_adm: 172.17.13.124
+VM-02-13-01-013:
+os_version: Microsoft Windows Server 2008 (32-bit)
+ip_adm: 172.17.13.239
+VM-03-13-01-008:
+os_version: Microsoft Windows Server 2003 Standard (32-bit)
+ip_adm: 172.17.13.248
+VM-03-13-01-006:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.13.246
+VM-03-13-16-007:
+os_version: Microsoft Windows Server 2003 (32-bit)
+ip_adm: 172.17.13.118
+VM-02-13-01-007:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.13.233
+VM-02-13-01-008:
+os_version: Microsoft Windows Server 2003 Standard (32-bit)
+ip_adm: 172.17.13.236
+VM-01-13-77-103:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 172.17.13.107
+VM-01-13-16-008:
+os_version: Microsoft Windows Server 2003 (32-bit)
+ip_adm: 172.17.13.116
+/KleeGroup-Hosting/TCC/FNMF:
+hosts:
+VM-02-09-16-101:
+os_version: Other (32-bit)
+ip_adm: 172.17.19.25
+VM-01-09-77-001:
+os_version: Red Hat Enterprise Linux 6 (64-bit)
+ip_adm: 172.17.19.75
+VM-02-09-02-102:
+os_version: Other (32-bit)
+ip_adm: 172.17.19.77
+VM-03-09-07-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.19.82
+VM-03-09-02-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.19.80
+VM-02-09-02-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.19.76
+VM-03-09-16-101:
+os_version: Other (32-bit)
+ip_adm: 172.17.19.26
+VM-02-09-07-101:
+os_version: Other (32-bit)
+ip_adm: 172.17.19.79
+/KleeGroup-Hosting/DC4/SPARK CEVA:
+hosts:
+VM-02-42-02-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.69
+VM-01-42-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.70
+VM-01-42-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.68
+VM-01-42-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.67
+VM-01-42-02-003:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.71
+VM-01-42-01-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.42.66
+VM-02-42-16-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.24
+VM-01-42-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.42.23
+/KleeGroup-Hosting/DC4/KleeCommerce:
+hosts:
+VM-02-KC-16-101:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.117.46
+VM-02-KC-02-100:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.117.61
+VM-02-KC-01-001:
+os_version: 
+ip_adm: 192.168.117.163
+VM-02-KC-01-112:
+os_version: Other (32-bit)
+ip_adm: 192.168.117.182
+VM-02-KC-01-100:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.117.189
+VM-02-KC-01-015:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.117.176
+VM-02-KC-16-001:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.117.37
+VM-02-KC-04-101:
+os_version: Microsoft Windows Server 2016 (64-bit)
+ip_adm: 192.168.117.181
+VM-02-KC-04-001:
+os_version: Microsoft Windows Server 2008 (32-bit)
+ip_adm: 192.168.117.41
+VM-02-KC-04-002:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 192.168.117.45
+/KleeGroup-Hosting/DC4/Rct01/GUN:
+hosts:
+dgpr-gun-apache:
+os_version: Debian GNU/Linux 9 (64-bit)
+ip_adm: 192.168.127.174
+dgpr-gun-bdd-ext-env-b:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.101
+dgpr-gun-bdd-ext-env-f:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.127.87
+dgpr-gun-appli-ext-env-f:
+os_version: Debian GNU/Linux 9 (64-bit)
+ip_adm: 192.168.127.86
+dgpr-gun-nfs-wso2-ext:
+os_version: Debian GNU/Linux 9 (64-bit)
+ip_adm: 192.168.127.88
+dgpr-gun-elastic-ext-env-d:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.127.92
+dgpr-gun-appli-ext-env-c:
+os_version: Debian GNU/Linux 9 (64-bit)
+ip_adm: 192.168.127.89
+dgpr-gun-appli-ext-env-d:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.123
+dgpr-gun-appli-ext-env-b:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 192.168.127.188
+dgpr-gun-bdd-ext-env-c:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.133
+dgpr-gun-appli-ext-env-a:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.172
+dgpr-gun-bdd-ext-env-d:
+os_version: Other (32-bit)
+ip_adm: 192.168.127.134
+dgpr-gun-bdd-ext-env-a:
+os_version: Debian GNU/Linux 9 (64-bit)
+ip_adm: 192.168.127.173
+/KleeGroup-Hosting/DC4/FPLP/EPM121/Archive:
+hosts:
+VM-03-17-22-001:
+os_version: 
+ip_adm: 172.17.113.212
+VM-03-17-16-001:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.17.113.152
+VM-03-17-21-001:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.17.113.214
+VM-03-17-01-001:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.17.113.210
+VM-01-17-77-003:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 172.17.113.195
+/KleeGroup-Hosting/TCC/Valtech:
+hosts:
+VM-01-85-16-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.185.19
+VM-01-85-22-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.185.79
+VM-01-85-77-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 192.168.185.75
+VM-01-85-22-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.185.78
+VM-01-85-01-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.185.77
+VM-01-85-01-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 192.168.185.76
+/KleeGroup-Hosting/TCC/Capital Venture:
+hosts:
+CV-01-03-01-003:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.51
+CV-01-38-01-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.43
+CV-01-33-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.29
+CV-01-43-01-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.56
+CV-01-19-16-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.66.123
+CV-01-09-16-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.66.103
+CV-01-00-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.99
+CV-01-24-01-003:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.212
+CV-01-39-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.91
+CV-01-38-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.89
+CV-KH03-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.66.233
+CV-01-14-16-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.66.113
+CV-01-02-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.207
+CV-01-44-01-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.58
+CV-01-41-01-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.50
+CV-01-24-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.197
+CV-01-39-01-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.44
+CV-03-03-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.214
+CV-01-32-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.75
+CV-01-41-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.95
+CV-01-26-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.10
+CV-01-05-16-001:
+os_version: Red Hat Enterprise Linux 5 (64-bit)
+ip_adm: 192.168.66.94
+CV-01-34-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.31
+CV-01-37-01-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.37
+CV-01-28-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.18
+CV-01-15-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.223
+CV-01-39-01-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.45
+CV-01-05-01-003:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.245
+CV-03-03-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.215
+CV-BDD-DEMO:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.110
+CV-01-28-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.71
+CV-01-26-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.67
+CV-01-21-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.241
+CV-01-01-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.239
+CV-01-21-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.109
+CV-01-27-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.68
+CV-03-15-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.196
+CV-01-16-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.225
+CV-01-03-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.244
+CV-01-29-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.19
+CV-01-19-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.217
+CV-01-23-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.198
+CV-01-02-16-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.66.88
+CV-01-07-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.248
+CV-01-14-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.237
+CV-01-35-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.33
+CV-01-01-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.240
+CV-01-30-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.73
+CV-01-43-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.69.55
+CV-01-13-16-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.66.111
+CV-01-15-16-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.66.115
+CV-01-08-16-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.66.100
+CV-01-17-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.210
+CV-01-31-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.23
+CV-01-03-01-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.34
+CV-KH03-002:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.66.234
+CV-01-42-01-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.53
+CV-01-22-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.252
+CV-demo-recette:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.222
+CV-01-40-01-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.47
+CV-01-25-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.201
+CV-01-10-16-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.66.105
+CV-01-33-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.28
+CV-01-21-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.242
+CV-01-10-01-001:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 192.168.66.231
+CV-01-04-16-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.66.92
+CV-01-24-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.98
+CV-01-16-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.226
+CV-01-23-16-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.66.125
+CV-01-04-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.205
+CV-01-40-01-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.46
+CV-01-16-16-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.66.117
+CV-01-03-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.243
+CV-01-42-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.97
+CV-01-27-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.13
+CV-01-09-01-001:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 192.168.66.229
+CV-01-23-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.199
+CV-01-14-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.238
+CV-01-37-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.80
+CV-01-36-16-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 192.168.66.79
+CV-01-36-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.36
+CV-01-21-01-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.16
+CV-01-20-16-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.66.83
+CV-01-11-01-002:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 192.168.66.236
+CV-01-07-16-001:
+os_version: Red Hat Enterprise Linux 5 (64-bit)
+ip_adm: 192.168.66.102
+CV-01-01-16-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.66.86
+CV-01-35-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.32
+CV-01-38-01-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.42
+CV-01-19-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.218
+CV-01-28-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.17
+CV-01-07-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.249
+CV-05-00-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.195
+CV-01-40-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.93
+CV-01-08-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.203
+CV-01-32-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.25
+CV-01-21-01-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.15
+CV-01-17-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.211
+CV-01-25-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.126
+CV-app-rct:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.221
+CV-01-08-01-003:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.48
+CV-01-02-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.206
+CV-01-26-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.11
+CV-01-22-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.253
+CV-01-13-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.250
+CV-01-34-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.30
+CV-01-15-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.224
+CV-01-25-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.194
+CV-01-05-01-004:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.246
+CV-01-10-01-002:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 192.168.66.232
+CV-03-10-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.82
+CV-01-20-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.219
+CV-01-13-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.251
+CV-01-20-01-002:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.220
+CV-01-29-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.72
+CV-01-16-16-002:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.66.118
+CV-01-11-01-001:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 192.168.66.235
+CV-01-36-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.35
+CV-01-33-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.76
+CV-01-27-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.12
+CV-01-09-01-002:
+os_version: Microsoft Windows Server 2008 R2 (64-bit)
+ip_adm: 192.168.66.230
+CV-01-22-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.124
+CV-01-06-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.247
+CV-01-17-16-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.66.119
+CV-01-30-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.22
+CV-01-05-01-005:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.66.216
+CV-01-32-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.26
+CV-01-41-01-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.49
+CV-01-30-01-001:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.21
+CV-05-00-01-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 192.168.69.27
+CV-01-04-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.204
+CV-01-06-16-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.66.96
+CV-01-42-01-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.54
+CV-01-05-01-006:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 192.168.69.52
+CV-01-11-16-001:
+os_version: CentOS 4/5/6 (64-bit)
+ip_adm: 192.168.66.107
+CV-01-31-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.24
+CV-01-35-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.78
+CV-01-34-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.77
+CV-01-29-01-002:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.69.20
+CV-01-03-16-001:
+os_version: CentOS 6 (64-bit)
+ip_adm: 192.168.66.90
+CV-01-31-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.66.74
+CV-01-06-01-003:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.228
+CV-01-44-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 192.168.69.57
+CV-01-08-01-001:
+os_version: Microsoft Windows Server 2012 (64-bit)
+ip_adm: 192.168.66.202
+/KleeGroup-Hosting/TCC/GTT:
+hosts:
+VM-02-57-16-001:
+os_version: Other (32-bit)
+ip_adm: 172.17.57.146
+VM-02-57-01-102:
+os_version: Other (32-bit)
+ip_adm: 172.17.57.197
+VM-02-57-01-002:
+os_version: Other (32-bit)
+ip_adm: 172.17.57.195
+VM-02-57-01-001:
+os_version: Other (32-bit)
+ip_adm: 172.17.57.194
+VM-02-57-01-101:
+os_version: Other (32-bit)
+ip_adm: 172.17.57.196
+VM-02-57-16-002:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.57.147
+/KleeGroup-Hosting/DC4/ADEO/PreProduction:
+hosts:
+VM-02-53-01-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.205
+VM-02-53-16-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.147
+VM-02-53-22-003:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.211
+VM-02-53-22-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.210
+VM-02-53-01-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.206
+VM-02-53-22-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.209
+VM-02-53-02-001:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.207
+VM-02-53-02-002:
+os_version: Microsoft Windows Server 2022 (64-bit)
+ip_adm: 172.17.53.208
+/KleeGroup-Hosting/TCC/CERTDC:
+hosts:
+VM-02-47-17-301:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.150
+VM-02-47-16-001:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.146
+VM-02-47-02-002:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.47.199
+VM-02-47-01-101:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.196
+VM-02-47-01-102:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.197
+VM-02-47-02-001:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.198
+VM-02-47-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.47.204
+VM-02-47-16-101:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.148
+VM-02-47-01-001:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.194
+VM-02-47-02-004:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.201
+VM-02-47-01-002:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.195
+VM-02-47-02-201:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.203
+VM-02-47-02-003:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.200
+VM-02-47-01-301:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 172.17.47.202
+VM-02-47-16-201:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.149
+VM-02-47-17-001:
+os_version: Other (32-bit)
+ip_adm: 172.17.47.147
+/KleeGroup-Hosting/DC4/CFAO:
+hosts:
+VM-02-33-01-201:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.16.192.111
+VM-01-33-77-202:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.16.192.110
+VM-02-33-22-201:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.16.192.113
+VM-02-33-VADC-001:
+os_version: Ubuntu Linux (64-bit)
+ip_adm: 172.16.192.123
+VM-02-33-VADC-002:
+os_version: Ubuntu Linux (64-bit)
+ip_adm: 172.16.192.124
+VM-02-33-78-201:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 172.16.192.115
+VM-02-33-16-201:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 172.16.192.19
+/KleeGroup-Hosting/TCC/AGEFICE:
+hosts:
+VM-02-24-87-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.24.148
+VM-02-24-01-002:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.24.201
+VM-02-24-01-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.24.198
+VM-02-24-01-101:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.24.199
+VM-02-24-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.24.202
+VM-02-24-16-001:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.24.147
+VM-02-24-16-101:
+os_version: Other (32-bit)
+ip_adm: 172.17.24.150
+VM-02-24-61-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.24.149
+VM-02-24-17-001:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 172.17.24.200
+/KleeGroup-Hosting/TCC/Arc:
+hosts:
+VM-01-62-22-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.164.84
+VM-01-62-01-102:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 192.168.164.83
+VM-01-62-01-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 192.168.164.82
+VM-01-62-22-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.164.85
+VM-01-62-16-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.164.23
+VM-01-62-77-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 192.168.164.81
+/KleeGroup-Hosting/TCC/GALIMMO:
+hosts:
+VM-02-45-16-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.45.146
+VM-02-45-17-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.45.147
+VM-02-45-01-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.45.194
+/KleeGroup-Hosting/TCC/TOTAL:
+hosts:
+VM-01-46-12-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.46.71
+VM-01-46-17-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.46.70
+VM-01-46-01-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.46.66
+VM-01-46-06-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.72
+VM-01-46-01-002:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.46.67
+VM-02-46-16-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.24
+VM-01-46-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.23
+VM-02-46-02-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.69
+VM-01-46-90-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.46.92
+VM-01-46-02-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.46.68
+/KleeGroup-Hosting/DC4/CHATBOT:
+hosts:
+VM-01-98-01-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.98.66
+VM-01-98-01-002:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.98.67
+VM-01-98-16-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.98.18
+/KleeGroup-Hosting/TCC/FFSA:
+hosts:
+VM-01-08-16-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.179.69
+VM-01-08-02-101:
+os_version: Debian GNU/Linux 11 (64-bit)
+ip_adm: 192.168.179.86
+VM-01-08-02-102:
+os_version: Other (32-bit)
+ip_adm: 192.168.179.87
+/KleeGroup-Hosting/DC4/GALIMMO:
+hosts:
+VM-01-45-16-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.45.18
+VM-01-45-01-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.45.66
+VM-01-45-17-001:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.45.19
+/KleeGroup-Hosting/DC4/BNPP:
+hosts:
+VM-02-56-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.56.197
+VM-02-56-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.56.194
+VM-02-56-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.56.146
+VM-02-56-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.56.195
+VM-02-56-06-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.56.196
+VM-02-56-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.56.198
+/KleeGroup-Hosting/TCC/BNPP:
+hosts:
+VM-01-56-02-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.56.67
+VM-01-56-12-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.56.69
+VM-01-56-06-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.56.68
+VM-01-56-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.56.18
+VM-01-56-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.56.70
+VM-01-56-01-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.56.66
+/KleeGroup-Hosting/DC4/TAE:
+hosts:
+VM-01-36-16-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.36.23
+VM-02-36-16-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.36.24
+VM-01-36-01-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.36.66
+VM-01-36-02-001:
+os_version: CentOS 7 (64-bit)
+ip_adm: 172.17.36.67
+VM-02-36-02-002:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.36.69
+VM-01-36-17-001:
+os_version: Red Hat Enterprise Linux 7 (64-bit)
+ip_adm: 172.17.36.68
+/KleeGroup-Hosting/DC4/LeSaffre:
+hosts:
+VM-02-52-02-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.88
+VM-02-52-77-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.94
+VM-02-52-22-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.92
+VM-02-52-22-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.91
+VM-02-52-VADC-002:
+os_version: Ubuntu Linux (64-bit)
+ip_adm: 10.102.2.67
+VM-02-52-01-101:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 10.102.2.86
+VM-02-52-16-102:
+os_version: Microsoft Windows Server 2019 (64-bit)
+ip_adm: 10.102.2.19
+VM-02-52-VADC-001:
+os_version: Ubuntu Linux (64-bit)
+ip_adm: 10.102.2.66
+VM-02-52-16-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.18
+VM-02-52-02-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.89
+VM-02-52-78-101:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.93
+VM-02-52-01-102:
+os_version: Microsoft Windows Server 2016 or later (64-bit)
+ip_adm: 10.102.2.87
+/KleeGroup-Hosting/DC4/DGEFP-FSE:
+hosts:
+VM-02-05-16-601:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.5.158
+VM-02-05-01-602:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.5.220
+VM-01-05-01-701:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.5.207
+VM-02-05-01-601:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.5.219
+VM-01-05-16-701:
+os_version: Debian GNU/Linux 10 (64-bit)
+ip_adm: 172.17.5.242
+/KleeGroup-Hosting/DC4/TEST:
+hosts:
+Test-Hot-Snap:
+os_version: CentOS 4/5 (64-bit)
+ip_adm: 192.168.180.42
+
